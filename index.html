@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>SlatSwarm_TT2</title>
+    <script src="./polyfills.js"></script>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 540px; height: 960px; background: #231F20"></canvas>
+    <script src="Build/WebGL2.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL2.data",
+        frameworkUrl: "Build/WebGL2.framework.js",
+        codeUrl: "Build/WebGL2.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "SlatSwarm_TT2",
+        productVersion: "1.0",
+      })
+      .then((instance) =>
+      {
+        unityInstance = instance;
+      })
+      .catch((message) => { console.warn(message); });
+    </script>
+  </body>
+</html>
