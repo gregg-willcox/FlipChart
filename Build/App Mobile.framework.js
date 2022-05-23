@@ -1305,7 +1305,7 @@ function _emscripten_asm_const_id(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 4161600;
+STATICTOP = STATIC_BASE + 4170592;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AccessibilityScriptingClasses_cpp();
@@ -3379,7 +3379,7 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 4161600;
+var STATIC_BUMP = 4170592;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
@@ -9355,6 +9355,21 @@ function ___syscall202(which, varargs) {
 }
 function ___syscall199() {
  return ___syscall202.apply(null, arguments);
+}
+var PROCINFO = {
+ ppid: 1,
+ pid: 42,
+ sid: 42,
+ pgid: 42
+};
+function ___syscall20(which, varargs) {
+ SYSCALLS.varargs = varargs;
+ try {
+  return PROCINFO.pid;
+ } catch (e) {
+  if (typeof FS === "undefined" || !(e instanceof FS.ErrnoError)) abort(e);
+  return -e.errno;
+ }
 }
 function ___syscall220(which, varargs) {
  SYSCALLS.varargs = varargs;
@@ -17167,8 +17182,8 @@ function nullFunc_vjji(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
-Module["wasmTableSize"] = 144715;
-Module["wasmMaxTableSize"] = 144715;
+Module["wasmTableSize"] = 144723;
+Module["wasmMaxTableSize"] = 144723;
 function invoke_ddddi(index, a1, a2, a3, a4) {
  var sp = stackSave();
  try {
@@ -21322,6 +21337,7 @@ Module.asmLibraryArg = {
  "___syscall196": ___syscall196,
  "___syscall197": ___syscall197,
  "___syscall199": ___syscall199,
+ "___syscall20": ___syscall20,
  "___syscall202": ___syscall202,
  "___syscall220": ___syscall220,
  "___syscall221": ___syscall221,
