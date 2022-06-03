@@ -8,12 +8,12 @@
   </head>
   <body style="text-align: center; margin: 0px">
     <canvas id="unity-canvas" style="width: calc(99vh*1080/1920); height: 99vh; background: #231F20"></canvas>
-    <script src="Build/App Mobile.loader.js"></script>
+    <script src="Build/App.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/App Mobile.data",
-        frameworkUrl: "Build/App Mobile.framework.js",
-        codeUrl: "Build/App Mobile.wasm",
+        dataUrl: "Build/App.data",
+        frameworkUrl: "Build/App.framework.js",
+        codeUrl: "Build/App.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "SlatSwarm_TT2",
