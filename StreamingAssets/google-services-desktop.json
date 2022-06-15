@@ -8,27 +8,37 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378708710039:ios:30dc5af41fd34a3dd48fd2",
+        "mobilesdk_app_id": "1:378708710039:android:9947fd9f6a4150a2d48fd2",
         "android_client_info": {
           "package_name": "com.DefaultCompany.SlatTest"
         }
       },
       "oauth_client": [
         {
-          "client_id": "378708710039-nh8pk57mmsq8ltcqpk4o9navvms1304c.apps.googleusercontent.com"
+          "client_id": "378708710039-fs41hcn7rvud528jifa3tfo1n9trl2ua.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBSU0TqNEnA2dKSNTqAYw2_buOG4AEpBlw"
+          "current_key": "AIzaSyB2foX7DnUHaQP4etRQVNp3m7AJ7OsUPSo"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 0
-        },
         "appinvite_service": {
-          "status": 1
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378708710039-fs41hcn7rvud528jifa3tfo1n9trl2ua.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378708710039-nh8pk57mmsq8ltcqpk4o9navvms1304c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DefaultCompany.SlatTest"
+              }
+            }
+          ]
         }
       }
     }
