@@ -26,12 +26,12 @@
 <!--                                        <canvas id="unity-canvas" style="z-index: 20; background: #231F20"></canvas>-->
                                         <canvas id="unity-canvas" style="z-index: 20; width: calc(86vh*1080/1920); height: 86vh; background: #231F20"></canvas>
 
-                                        <script src="Build/AppDemo.loader.js"></script>
+                                        <script src="Build/AppProd.loader.js"></script>
                                         <script>
                                           createUnityInstance(document.querySelector("#unity-canvas"), {
-                                            dataUrl: "Build/AppDemo.data",
-                                            frameworkUrl: "Build/AppDemo.framework.js",
-                                            codeUrl: "Build/AppDemo.wasm",
+                                            dataUrl: "Build/AppProd.data",
+                                            frameworkUrl: "Build/AppProd.framework.js",
+                                            codeUrl: "Build/AppProd.wasm",
                                             streamingAssetsUrl: "StreamingAssets",
                                             companyName: "DefaultCompany",
                                             productName: "Mobile Swarm",
