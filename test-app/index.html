@@ -22,16 +22,16 @@
                               </tr>
                               <tr class="m_r-middle">
                                   <td class="m_left"></td>
-                                  <td class="m_middle" style="background: rgb(0,0,0)">
+                                  <td class="m_middle" style="background: rgb(0,0,0)" id="unity-container">
 <!--                                        <canvas id="unity-canvas" style="z-index: 20; background: #231F20"></canvas>-->
                                         <canvas id="unity-canvas" style="z-index: 20; width: calc(86vh*1080/1920); height: 86vh; background: #231F20"></canvas>
 
-                                        <script src="Build/test-app.loader.js"></script>
+                                        <script src="Build/AppTest.loader.js"></script>
                                         <script>
                                           createUnityInstance(document.querySelector("#unity-canvas"), {
-                                            dataUrl: "Build/test-app.data",
-                                            frameworkUrl: "Build/test-app.framework.js",
-                                            codeUrl: "Build/test-app.wasm",
+                                            dataUrl: "Build/AppTest.data",
+                                            frameworkUrl: "Build/AppTest.framework.js",
+                                            codeUrl: "Build/AppTest.wasm",
                                             streamingAssetsUrl: "StreamingAssets",
                                             companyName: "DefaultCompany",
                                             productName: "Mobile Swarm",
