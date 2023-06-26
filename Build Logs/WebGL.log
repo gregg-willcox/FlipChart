@@ -1,16 +1,16 @@
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-willc" (connect: 0.00s, validation: 0.02s, handshake: 1.05s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-willc" (connect: 0.00s, validation: 0.03s, handshake: 1.05s)
 Entitlement-based licensing initiated
 [LicensingClient] Licenses updated successfully
 
-LICENSE SYSTEM [2023626 11:26:3] Next license update check is after 2023-06-27T18:26:03
+LICENSE SYSTEM [2023626 11:47:19] Next license update check is after 2023-06-27T18:47:18
 
 
-LICENSE SYSTEM [2023626 11:26:3] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+LICENSE SYSTEM [2023626 11:47:19] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16310 MB
 [Licensing::Module] Serial number assigned to: "F4-UQ8S-Y7XS-7Y92-939X-XXXX"
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
-[Package Manager] Server::Start -- Port 63002 was selected
+[Package Manager] Server::Start -- Port 65288 was selected
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
@@ -90,9 +90,9 @@ Registered 59 packages:
     com.google.firebase.database@file:D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Packages\firebase\com.google.firebase.database-8.4.0.tgz (location: D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Library\PackageCache\com.google.firebase.database@82cfa10019dd)
     com.google.firebase.firestore@file:D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Packages\firebase\com.google.firebase.firestore-8.4.0.tgz (location: D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Library\PackageCache\com.[Subsystems] No new subsystems found in resolved package list.
 Package Manager log level set to [2]
-[Package Manager] Done registering packages in 0.08s seconds
+[Package Manager] Done registering packages in 1.10s seconds
 Targeting platform: WebGL
-Refreshing native plugins compatible for Editor in 79.35 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 74.63 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -108,7 +108,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -116,48 +116,48 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.027065 seconds.
+Registered in 0.026300 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.53 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 61.99 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.572 seconds
+- Completed reload, in  0.564 seconds
 Domain Reload Profiling:
-	ReloadAssembly (572ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (426ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (422ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
 			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (14ms)
 				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.040505 seconds.
+Validating Project structure ... 0.042021 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.046537 seconds.
+Upgrading shader files ...0.046783 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 Registering precompiled user dll's ...
-Registered in 0.012123 seconds.
+Registered in 0.011935 seconds.
 [ScriptCompilation] Recompiling all scripts because: InitialRefresh: Force Refresh Recompile flag enabled
 - Starting script compilation
 - Starting compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll
@@ -181,316 +181,316 @@ Deleting stamp file at Library/ScriptAssemblies/BuiltinAssemblies.stamp
 - Starting compile Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Editor.dll
-- Starting compile Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Mirror.CompilerSymbols.dll
 - Starting compile Library/ScriptAssemblies/Telepathy.dll
 - Starting compile Library/ScriptAssemblies/SimpleWebTransport.dll
-- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll
-- Starting compile Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 - Starting compile Library/ScriptAssemblies/Mirror.dll
 - Starting compile Library/ScriptAssemblies/Unity.Mirror.CodeGen.dll
 - Starting compile Library/ScriptAssemblies/kcp2k.dll
 - Starting compile Library/ScriptAssemblies/Mirror.Authenticators.dll
 - Starting compile Library/ScriptAssemblies/Mirror.Components.dll
-- Finished compile Library/ScriptAssemblies/Unity.Mirror.CodeGen.dll in 0.353931 seconds
-- Starting compile Library/ScriptAssemblies/Mirror.Transports.dll
+- Finished compile Library/ScriptAssemblies/Unity.Mirror.CodeGen.dll in 0.409069 seconds
 - Starting compile Library/ScriptAssemblies/Mirror.Editor.dll
+- Starting compile Library/ScriptAssemblies/Mirror.Transports.dll
 - Starting compile Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
 - Starting compile Library/ScriptAssemblies/Mirror.Examples.dll
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.001783 seconds
-- Finished ILPostProcessorRunner in 0.08025 seconds
-- Finished compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll in 5.545155 seconds
 - Starting compile Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll
 - Starting compile Library/ScriptAssemblies/Unity.2D.IK.Editor.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.002365 seconds
-- Finished ILPostProcessorRunner in 0.096938 seconds
-- Finished compile Library/ScriptAssemblies/UnityEngine.UI.dll in 7.173564 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.001775 seconds
+- Finished ILPostProcessorRunner in 0.122692 seconds
+- Finished compile Library/ScriptAssemblies/UnityEngine.UI.dll in 6.827399 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.001702 seconds
+- Finished ILPostProcessorRunner in 0.130415 seconds
+- Finished compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll in 6.998052 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEditor.TestRunner.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEditor.TestRunner.dll in 0.001618 seconds
-- Finished ILPostProcessorRunner in 0.068863 seconds
-- Finished compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll in 6.22554 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEditor.TestRunner.dll in 0.002631 seconds
+- Finished ILPostProcessorRunner in 0.152597 seconds
+- Finished compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll in 5.812258 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEditor.UI.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEditor.UI.dll in 0.002839 seconds
-- Finished ILPostProcessorRunner in 0.085326 seconds
-- Finished compile Library/ScriptAssemblies/UnityEditor.UI.dll in 5.852119 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEditor.UI.dll in 0.003204 seconds
+- Finished ILPostProcessorRunner in 0.120385 seconds
+- Finished compile Library/ScriptAssemblies/UnityEditor.UI.dll in 5.395315 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.003231 seconds
-- Finished ILPostProcessorRunner in 0.089684 seconds
-- Finished compile Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 5.516315 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.003537 seconds
-- Finished ILPostProcessorRunner in 0.096979 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll in 5.505497 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.002818 seconds
+- Finished ILPostProcessorRunner in 0.166341 seconds
+- Finished compile Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 5.098521 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.VSCode.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.VSCode.Editor.dll in 0.002109 seconds
-- Finished ILPostProcessorRunner in 0.100025 seconds
-- Finished compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll in 5.518749 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.VSCode.Editor.dll in 0.002789 seconds
+- Finished ILPostProcessorRunner in 0.105876 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll in 5.09285 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.002721 seconds
+- Finished ILPostProcessorRunner in 0.106604 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll in 5.088474 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Tilemap.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Tilemap.Editor.dll in 0.00256 seconds
-- Finished ILPostProcessorRunner in 0.097204 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll in 5.503158 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Tilemap.Editor.dll in 0.002856 seconds
+- Finished ILPostProcessorRunner in 0.102414 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll in 5.082644 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on PsdPlugin.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on PsdPlugin.dll in 0.002901 seconds
-- Finished ILPostProcessorRunner in 0.13555 seconds
-- Finished compile Library/ScriptAssemblies/PsdPlugin.dll in 5.51398 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on PsdPlugin.dll in 0.003099 seconds
+- Finished ILPostProcessorRunner in 0.116832 seconds
+- Finished compile Library/ScriptAssemblies/PsdPlugin.dll in 5.076114 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.VisualStudio.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.VisualStudio.Editor.dll in 0.001836 seconds
-- Finished ILPostProcessorRunner in 0.114188 seconds
-- Finished compile Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll in 5.508009 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.VisualStudio.Editor.dll in 0.002718 seconds
+- Finished ILPostProcessorRunner in 0.107386 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll in 5.00111 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.002766 seconds
-- Finished ILPostProcessorRunner in 0.091288 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll in 5.501161 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.002786 seconds
+- Finished ILPostProcessorRunner in 0.098989 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll in 4.993922 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Path.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Path.Editor.dll in 0.002904 seconds
-- Finished ILPostProcessorRunner in 0.09481 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Path.Editor.dll in 5.469743 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Rider.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Rider.Editor.dll in 0.001726 seconds
-- Finished ILPostProcessorRunner in 0.098264 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Rider.Editor.dll in 5.426604 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Path.Editor.dll in 0.003059 seconds
+- Finished ILPostProcessorRunner in 0.100776 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Path.Editor.dll in 4.763252 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Sprite.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Sprite.Editor.dll in 0.002949 seconds
-- Finished ILPostProcessorRunner in 0.097625 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll in 5.489393 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Sprite.Editor.dll in 0.002392 seconds
+- Finished ILPostProcessorRunner in 0.103556 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll in 4.797659 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Rider.Editor.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Rider.Editor.dll in 0.002424 seconds
+- Finished ILPostProcessorRunner in 0.105314 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Rider.Editor.dll in 4.735304 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.002655 seconds
-- Finished ILPostProcessorRunner in 0.087382 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll in 5.396483 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.002369 seconds
+- Finished ILPostProcessorRunner in 0.098386 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll in 4.650424 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Services.Core.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Services.Core.Editor.dll in 0.002913 seconds
-- Finished ILPostProcessorRunner in 0.078708 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Services.Core.Editor.dll in 5.383367 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Triangle.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Triangle.Editor.dll in 0.001804 seconds
-- Finished ILPostProcessorRunner in 0.083244 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Editor.dll in 5.375267 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.001847 seconds
+- Finished ILPostProcessorRunner in 0.102514 seconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll in 4.933357 seconds
 - Starting compile Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.001748 seconds
-- Finished ILPostProcessorRunner in 0.090635 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll in 5.448561 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.002746 seconds
-- Finished ILPostProcessorRunner in 0.084208 seconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll in 5.804055 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.Editor.dll in 0.002907 seconds
-- Finished ILPostProcessorRunner in 0.097543 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll in 5.244057 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.00409 seconds
+- Finished ILPostProcessorRunner in 0.099734 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll in 4.444731 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.PlasticSCM.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.PlasticSCM.Editor.dll in 0.001987 seconds
-- Finished ILPostProcessorRunner in 0.094226 seconds
-- Finished compile Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll in 5.804825 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.PlasticSCM.Editor.dll in 0.002674 seconds
+- Finished ILPostProcessorRunner in 0.104795 seconds
+- Finished compile Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll in 5.069337 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Services.Core.Editor.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Services.Core.Editor.dll in 0.002837 seconds
+- Finished ILPostProcessorRunner in 0.115844 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Services.Core.Editor.dll in 4.627455 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.Editor.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.Editor.dll in 0.002742 seconds
+- Finished ILPostProcessorRunner in 0.110515 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll in 4.525198 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.CompilerSymbols.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.CompilerSymbols.dll in 0.002912 seconds
-- Finished ILPostProcessorRunner in 0.094674 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.CompilerSymbols.dll in 5.130884 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.CompilerSymbols.dll in 0.003016 seconds
+- Finished ILPostProcessorRunner in 0.096633 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.CompilerSymbols.dll in 4.435275 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.001821 seconds
-- Finished ILPostProcessorRunner in 0.088445 seconds
-- Finished compile Library/ScriptAssemblies/SimpleWebTransport.dll in 4.970154 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.002698 seconds
+- Finished ILPostProcessorRunner in 0.111408 seconds
+- Finished compile Library/ScriptAssemblies/SimpleWebTransport.dll in 4.307481 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.002053 seconds
-- Finished ILPostProcessorRunner in 0.09159 seconds
-- Finished compile Library/ScriptAssemblies/Telepathy.dll in 5.075786 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.002644 seconds
+- Finished ILPostProcessorRunner in 0.099951 seconds
+- Finished compile Library/ScriptAssemblies/Telepathy.dll in 4.34528 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Triangle.Editor.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Triangle.Editor.dll in 0.001767 seconds
+- Finished ILPostProcessorRunner in 0.104424 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Editor.dll in 4.655381 seconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEditorBridge.001.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEditorBridge.001.dll in 0.00295 seconds
-- Finished ILPostProcessorRunner in 0.128767 seconds
-- Finished compile Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll in 5.356607 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEditorBridge.001.dll in 0.002795 seconds
+- Finished ILPostProcessorRunner in 0.129006 seconds
+- Finished compile Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll in 5.09493 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Editor.dll in 0.003144 seconds
-- Finished ILPostProcessorRunner in 0.138122 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Common.Editor.dll in 5.125393 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Editor.dll in 0.002764 seconds
+- Finished ILPostProcessorRunner in 0.119659 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Common.Editor.dll in 4.534217 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.Editor.dll in 0.003363 seconds
-- Finished ILPostProcessorRunner in 0.140238 seconds
-- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll in 5.014115 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.Editor.dll in 0.002758 seconds
+- Finished ILPostProcessorRunner in 0.120003 seconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll in 4.578119 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.CollabProxy.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.CollabProxy.Editor.dll in 0.002835 seconds
-- Finished ILPostProcessorRunner in 0.127644 seconds
-- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll in 4.938076 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.CollabProxy.Editor.dll in 0.00282 seconds
+- Finished ILPostProcessorRunner in 0.134689 seconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll in 4.515477 seconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
-Find all reader and writers took 358 milliseconds
+Find all reader and writers took 391 milliseconds
 Script Module: Mirror.dll
-Weave behaviours and messages took 530 milliseconds
-  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0020004
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 1.169441 seconds
-- Finished ILPostProcessorRunner in 1.288529 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.dll in 6.496146 seconds
+Weave behaviours and messages took 529 milliseconds
+  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0030004
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 1.163923 seconds
+- Finished ILPostProcessorRunner in 1.288465 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.dll in 5.917001 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.Editor.dll in 0.002975 seconds
-- Finished ILPostProcessorRunner in 0.134381 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll in 7.153223 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.Editor.dll in 0.00309 seconds
+- Finished ILPostProcessorRunner in 0.130433 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll in 7.093754 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll
-Find all reader and writers took 461 milliseconds
+Find all reader and writers took 445 milliseconds
 Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took 61 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0009998
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.762951 seconds
-- Finished ILPostProcessorRunner in 0.892302 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.Authenticators.dll in 5.81946 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
-Find all reader and writers took 433 milliseconds
-Script Module: kcp2k.dll
-Weave behaviours and messages took 83 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.683013 seconds
-- Finished ILPostProcessorRunner in 0.807826 seconds
-- Finished compile Library/ScriptAssemblies/kcp2k.dll in 5.833661 seconds
+Weave behaviours and messages took 50 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0009981
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.74605 seconds
+- Finished ILPostProcessorRunner in 0.864613 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.Authenticators.dll in 5.254183 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll
-Find all reader and writers took 479 milliseconds
+Find all reader and writers took 516 milliseconds
 Script Module: Mirror.Components.dll
-Weave behaviours and messages took 695 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0015154
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 1.430084 seconds
-- Finished ILPostProcessorRunner in 1.547872 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.Components.dll in 5.819046 seconds
+Weave behaviours and messages took 715 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0009999
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 1.467371 seconds
+- Finished ILPostProcessorRunner in 1.578591 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.Components.dll in 5.251904 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
+Find all reader and writers took 462 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took 74 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.687298 seconds
+- Finished ILPostProcessorRunner in 0.791544 seconds
+- Finished compile Library/ScriptAssemblies/kcp2k.dll in 5.274605 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.002885 seconds
-- Finished ILPostProcessorRunner in 0.121966 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Mathematics.dll in 8.365251 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.002686 seconds
+- Finished ILPostProcessorRunner in 0.110175 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Mathematics.dll in 7.621903 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Editor.dll
-Find all reader and writers took 422 milliseconds
+Find all reader and writers took 478 milliseconds
 Script Module: Mirror.Editor.dll
-Weave behaviours and messages took 85 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Editor.dll in 0.671645 seconds
-- Finished ILPostProcessorRunner in 0.778086 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.Editor.dll in 5.466484 seconds
+Weave behaviours and messages took 80 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Editor.dll in 0.717518 seconds
+- Finished ILPostProcessorRunner in 0.813287 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.Editor.dll in 4.875081 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll
-Find all reader and writers took 433 milliseconds
+Find all reader and writers took 467 milliseconds
 Script Module: Mirror.Transports.dll
-Weave behaviours and messages took 148 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.728086 seconds
-- Finished ILPostProcessorRunner in 0.840029 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.Transports.dll in 5.479357 seconds
+Weave behaviours and messages took 153 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.764174 seconds
+- Finished ILPostProcessorRunner in 0.871681 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.Transports.dll in 4.852569 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.Editor.dll in 0.002227 seconds
-- Finished ILPostProcessorRunner in 0.102537 seconds
-- Finished compile Library/ScriptAssemblies/Unity.Mathematics.Editor.dll in 5.355871 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.002811 seconds
-- Finished ILPostProcessorRunner in 0.115329 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 5.349481 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.Editor.dll in 0.0029 seconds
+- Finished ILPostProcessorRunner in 0.10648 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Mathematics.Editor.dll in 4.738572 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.001856 seconds
-- Finished ILPostProcessorRunner in 0.109673 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll in 5.373033 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.002561 seconds
+- Finished ILPostProcessorRunner in 0.098832 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll in 4.751361 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.002773 seconds
+- Finished ILPostProcessorRunner in 0.095282 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 4.736332 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll
-Find all reader and writers took 548 milliseconds
+Find all reader and writers took 614 milliseconds
 Script Module: Mirror.Examples.dll
-Weave behaviours and messages took 1182 milliseconds
-  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0019998
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 1.952532 seconds
-- Finished ILPostProcessorRunner in 2.05259 seconds
-- Finished compile Library/ScriptAssemblies/Mirror.Examples.dll in 4.954968 seconds
+Weave behaviours and messages took 1221 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0009986
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 2.045561 seconds
+- Finished ILPostProcessorRunner in 2.13339 seconds
+- Finished compile Library/ScriptAssemblies/Mirror.Examples.dll in 4.492348 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Editor.dll in 0.001817 seconds
-- Finished ILPostProcessorRunner in 0.0821 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll in 4.659624 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Editor.dll in 0.001727 seconds
+- Finished ILPostProcessorRunner in 0.077985 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll in 4.165374 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Editor.dll in 0.001859 seconds
-- Finished ILPostProcessorRunner in 0.084839 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll in 4.675772 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Editor.dll in 0.002718 seconds
+- Finished ILPostProcessorRunner in 0.081973 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll in 4.356348 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Editor.dll in 0.002832 seconds
-- Finished ILPostProcessorRunner in 0.075876 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.IK.Editor.dll in 3.379998 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Editor.dll in 0.002679 seconds
+- Finished ILPostProcessorRunner in 0.070855 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.IK.Editor.dll in 3.481201 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Psdimporter.Editor.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Psdimporter.Editor.dll in 0.001721 seconds
-- Finished ILPostProcessorRunner in 0.089616 seconds
-- Finished compile Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll in 2.971379 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Psdimporter.Editor.dll in 0.001751 seconds
+- Finished ILPostProcessorRunner in 0.074008 seconds
+- Finished compile Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll in 3.002662 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll
-Find all reader and writers took 697 milliseconds
+Find all reader and writers took 676 milliseconds
 Script Module: Assembly-CSharp.dll
-Weave behaviours and messages took 4360 milliseconds
-  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0080004
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 5.313166 seconds
-- Finished ILPostProcessorRunner in 5.383193 seconds
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll in 7.982336 seconds
+Weave behaviours and messages took 4302 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0076064
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 5.232232 seconds
+- Finished ILPostProcessorRunner in 5.297783 seconds
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll in 7.922771 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp-Editor.dll
-Find all reader and writers took 573 milliseconds
+Find all reader and writers took 327 milliseconds
 Script Module: Assembly-CSharp-Editor.dll
-Weave behaviours and messages took 291 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp-Editor.dll in 0.981502 seconds
-- Finished ILPostProcessorRunner in 1.047649 seconds
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll in 7.276238 seconds
-- Finished script compilation in 15.898917 seconds
-Assets\Scripts\DatabaseAccessor.cs(24,46): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
+Weave behaviours and messages took 297 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp-Editor.dll in 0.739391 seconds
+- Finished ILPostProcessorRunner in 0.801726 seconds
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll in 7.05273 seconds
+- Finished script compilation in 15.604016 seconds
 Assets\ConnectionStatusController.cs(9,15): warning CS0108: 'ConnectionStatusController.animation' hides inherited member 'Component.animation'. Use the new keyword if hiding was intended.
+Assets\Scripts\DatabaseAccessor.cs(24,46): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
 Assets\Scripts\ListElement.cs(47,19): warning CS0108: 'ListElement.name' hides inherited member 'Object.name'. Use the new keyword if hiding was intended.
 Assets\GameStateInterface.cs(59,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(101,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+Assets\Scripts\DatabaseAccessor.cs(226,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(131,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(180,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
-Assets\Scripts\DatabaseAccessor.cs(226,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(90,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(108,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(142,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(523,13): warning CS0162: Unreachable code detected
-AssetDatabase: script compilation time: 16.069989s
+AssetDatabase: script compilation time: 15.772275s
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 1.68 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -505,62 +505,61 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.642 seconds
+- Completed reload, in  2.936 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2643ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (2937ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (2454ms)
-			LoadAssemblies (406ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (2753ms)
+			LoadAssemblies (624ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
+			RebuildScriptCaches (62ms)
 			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (81ms)
+				BeforeProcessingInitializeOnLoad (80ms)
 				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 20112.265ms
-	InvokeBeforeRefreshCallbacks: 41.510ms
-	ApplyChangesToAssetFolders: 0.057ms
-	Scan: 183.129ms
+RefreshProfiler: Total: 19975.770ms
+	InvokeBeforeRefreshCallbacks: 39.252ms
+	ApplyChangesToAssetFolders: 0.055ms
+	Scan: 179.950ms
 	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 0.335ms
-	GetAllGuidsForCategorization: 0.499ms
-	CategorizeAssets: 61.811ms
-	ImportAndPostprocessOutOfDateAssets: 19672.392ms (3601.262ms without children)
-		CompileScripts: 16070.270ms
-		PostProcessAllAssets: 0.000ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.423ms
-		InitializingProgressBar: 0.018ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.344ms
-		RestoreLoadedAssetsState: 0.074ms
-	ReloadSourceAssets: 0.359ms
-	UnloadImportedAssets: 0.009ms
-	Hotreload: 0.567ms
+	InitializeImportedAssetsSnapshot: 0.336ms
+	GetAllGuidsForCategorization: 0.421ms
+	CategorizeAssets: 60.082ms
+	ImportAndPostprocessOutOfDateAssets: 19674.978ms (3901.646ms without children)
+		CompileScripts: 15772.574ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.363ms
+		InitializingProgressBar: 0.017ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.325ms
+		RestoreLoadedAssetsState: 0.054ms
+	ReloadSourceAssets: 0.347ms
+	UnloadImportedAssets: 0.006ms
+	Hotreload: 0.476ms
 	FixTempGuids: 0.003ms
 	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
-	UnloadStreamsBegin: 0.626ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.016ms
-	GetLoadedSourceAssetsSnapshot: 0.157ms
-	PersistCurrentRevisions: 0.850ms
-	UnloadStreamsEnd: 11.594ms
-	GenerateScriptTypeHashes: 0.200ms
-	Untracked: 138.351ms
+	UnloadStreamsBegin: 0.601ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.015ms
+	GetLoadedSourceAssetsSnapshot: 0.139ms
+	PersistCurrentRevisions: 0.770ms
+	UnloadStreamsEnd: 11.139ms
+	GenerateScriptTypeHashes: 0.139ms
+	Untracked: 7.199ms
 Application.AssetDatabase Initial Script Refresh End
 Application.AssetDatabase.Refresh Start
 Start importing Assets/TextMesh Pro/Fonts/Roboto-Regular.ttf using Guid(50680e799c1c9e842a83a89b904249a3) Importer(-1,00000000000000000000000000000000) The asset at Assets/TextMesh Pro/Fonts/Roboto-ThinItalic.ttf has been scheduled for reimport during the Refresh loop and Loading of it has been attempted.
@@ -607,61 +606,60 @@ The asset at Assets/TextMesh Pro/Fonts/Roboto-LightItalic.ttf has been scheduled
 Doing this can lead to the AssetDatabase returning two versions of the same asset.
 Please ensure that code which attempts to reimport this asset does not run while the editor is Refreshing.
 You can do so by checking the value of EditorApplication.isUpdating
- -> (artifact id: '5495fda0045bc666eaf5b197b82ae385') in 0.018834 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-Thin.ttf using Guid(61d181fb9caa9cf41a31bd3229758887) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '034e8e6d9000392f25e00ae04e4aaebe') in 0.004837 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-MediumItalic.ttf using Guid(b2856c51ddbb90c4dbf1bd306e8cd570) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '53a32bb6eb1941fd8ef97543bae3fe86') in 0.004901 seconds 
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5f12c47b39fd8c046e0d0386771c0f56') in 0.385615 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-Light.ttf using Guid(08db4933f7eb1834283db69394aed535) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'caf9f63ee677ff0b1dd67d3b1c4ff053') in 0.198571 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-Italic.ttf using Guid(e81731ec591050d42a6aa5dc19c6102a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '67b8b96d368d85495ba1974315eb2000') in 0.004820 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-BlackItalic.ttf using Guid(0a3c0f5dab3815446a413c5180aee083) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '499be45d439edc18e65435e30c78a90a') in 0.004713 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-BoldItalic.ttf using Guid(4bdab524e6ff6cf4d826ea4b8f5933ff) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '97524e8c7f8c9fee0fe92ab97cb1a03d') in 0.005302 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-Bold.ttf using Guid(3cbd2d43cd51d244c8614df7fae580ed) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2dd85d638728aa4d74a83d2b0ed23486') in 0.004990 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-Black.ttf using Guid(1ed091cd09b96914dae484d26d3bf89a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f4e83f588570bad83438bacb3463e3ba') in 0.004780 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-ThinItalic.ttf using Guid(5e0676473a3c4064188e5e521209f7ae) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3229353a29a64bf9d543be5beb690126') in 0.004810 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-Medium.ttf using Guid(9e8f538595ce9dd4c9e412d2a8601241) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8e77be48b91576992bcc04e84c25c314') in 0.004739 seconds 
-Start importing Assets/TextMesh Pro/Fonts/Roboto-LightItalic.ttf using Guid(5fa7758f1459d2e4193da3b482aa7256) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '751bd1b8a968637a15ce1b3c3e0543fe') in 0.004883 seconds 
-Refreshing native plugins compatible for Editor in 0.98 ms, found 9 plugins.
+ -> (artifact id: '5495fda0045bc666eaf5b197b82ae385') in 0.061798 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-Thin.ttf using Guid(61d181fb9caa9cf41a31bd3229758887) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '034e8e6d9000392f25e00ae04e4aaebe') in 0.066801 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-MediumItalic.ttf using Guid(b2856c51ddbb90c4dbf1bd306e8cd570) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '53a32bb6eb1941fd8ef97543bae3fe86') in 0.004620 seconds 
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5f12c47b39fd8c046e0d0386771c0f56') in 0.387060 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-Light.ttf using Guid(08db4933f7eb1834283db69394aed535) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'caf9f63ee677ff0b1dd67d3b1c4ff053') in 0.004520 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-Italic.ttf using Guid(e81731ec591050d42a6aa5dc19c6102a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '67b8b96d368d85495ba1974315eb2000') in 0.004339 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-BlackItalic.ttf using Guid(0a3c0f5dab3815446a413c5180aee083) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '499be45d439edc18e65435e30c78a90a') in 0.004419 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-BoldItalic.ttf using Guid(4bdab524e6ff6cf4d826ea4b8f5933ff) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '97524e8c7f8c9fee0fe92ab97cb1a03d') in 0.004312 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-Bold.ttf using Guid(3cbd2d43cd51d244c8614df7fae580ed) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2dd85d638728aa4d74a83d2b0ed23486') in 0.004551 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-Black.ttf using Guid(1ed091cd09b96914dae484d26d3bf89a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f4e83f588570bad83438bacb3463e3ba') in 0.004974 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-ThinItalic.ttf using Guid(5e0676473a3c4064188e5e521209f7ae) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3229353a29a64bf9d543be5beb690126') in 0.004416 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-Medium.ttf using Guid(9e8f538595ce9dd4c9e412d2a8601241) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8e77be48b91576992bcc04e84c25c314') in 0.004580 seconds 
+Start importing Assets/TextMesh Pro/Fonts/Roboto-LightItalic.ttf using Guid(5fa7758f1459d2e4193da3b482aa7256) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '751bd1b8a968637a15ce1b3c3e0543fe') in 0.004435 seconds 
+Refreshing native plugins compatible for Editor in 0.92 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refresh completed in 2.546980 seconds.
+Refresh completed in 0.779236 seconds.
 RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 2546.959ms
-	InvokeBeforeRefreshCallbacks: 41.301ms
-	ApplyChangesToAssetFolders: 0.058ms
-	Scan: 1.950ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.416ms
-	GetAllGuidsForCategorization: 0.333ms
-	CategorizeAssets: 60.391ms
-	ImportAndPostprocessOutOfDateAssets: 2427.569ms (1.725ms without children)
-		ImportManagerImport: 2324.819ms (2.283ms without children)
-			ImportInProcess: 2322.443ms
-			UpdateCategorizedAssets: 0.094ms
-		PostProcessAllAssets: 94.756ms
+RefreshProfiler: Total: 779.223ms
+	InvokeBeforeRefreshCallbacks: 40.588ms
+	ApplyChangesToAssetFolders: 0.056ms
+	Scan: 1.913ms
+	InitializeImportedAssetsSnapshot: 3.621ms
+	GetAllGuidsForCategorization: 0.304ms
+	CategorizeAssets: 58.849ms
+	ImportAndPostprocessOutOfDateAssets: 664.831ms (1.629ms without children)
+		ImportManagerImport: 567.385ms (2.290ms without children)
+			ImportInProcess: 564.993ms
+			UpdateCategorizedAssets: 0.102ms
+		PostProcessAllAssets: 89.629ms
 		ReloadImportedAssets: 0.005ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.701ms
-		InitializingProgressBar: 0.017ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.361ms
-		OnDemandSchedulerStart: 0.993ms
-		RestoreLoadedAssetsState: 1.299ms
-	UpdateImportedAssetsSnapshot: 2.894ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.639ms
+		InitializingProgressBar: 0.019ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.360ms
+		OnDemandSchedulerStart: 1.109ms
+		RestoreLoadedAssetsState: 1.180ms
+	UpdateImportedAssetsSnapshot: 2.877ms
 	ReloadSourceAssets: 0.326ms
-	UnloadImportedAssets: 0.382ms
-	Hotreload: 1.386ms
-	FixTempGuids: 0.004ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.261ms
-	UnloadStreamsBegin: 0.020ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.139ms
-	GetLoadedSourceAssetsSnapshot: 2.465ms
-	PersistCurrentRevisions: 2.243ms
+	UnloadImportedAssets: 0.331ms
+	Hotreload: 1.248ms
+	FixTempGuids: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.228ms
+	UnloadStreamsBegin: 0.019ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.170ms
+	GetLoadedSourceAssetsSnapshot: 1.988ms
+	PersistCurrentRevisions: 2.219ms
 	UnloadStreamsEnd: 0.319ms
-	GenerateScriptTypeHashes: 2.914ms
-	Untracked: 1.397ms
+	GenerateScriptTypeHashes: 2.789ms
+	Untracked: 1.207ms
 Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 46.204ms
-Refresh completed in 0.072690 seconds.
+RefreshProfiler: Total: 43.581ms
+Refresh completed in 0.070674 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 72.659ms
+RefreshProfiler: Total: 70.648ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Initializing Unity extensions:
 CreateAssetMenu attribute on SessionSettings will be ignored as SessionSettings is not derived from ScriptableObject.
@@ -1787,16 +1785,16 @@ UnityEditor.AttributeHelper:ExtractCreateAssetMenuItems (System.Reflection.Assem
 Unloading 375 Unused Serialized files (Serialized files now loaded: 0)
 ProgressiveSceneManager::Cancel()
 Loaded scene 'Assets/Scenes/APP.unity'
-	Deserialize:            395.007 ms
-	Integration:            130.121 ms
-	Integration of assets:  13.003 ms
-	Thread Wait Time:       0.125 ms
-	Total Operation Time:   538.256 ms
+	Deserialize:            115.644 ms
+	Integration:            92.291 ms
+	Integration of assets:  12.978 ms
+	Thread Wait Time:       0.185 ms
+	Total Operation Time:   221.098 ms
 System memory in use before: 130.0 MB.
 System memory in use after: 128.0 MB.
 
 Unloading 508 unused Assets to reduce memory usage. Loaded Objects now: 4482.
-Total: 6.742800 ms (FindLiveObjects: 0.283900 ms CreateObjectMapping: 0.170300 ms MarkObjects: 5.088300 ms  DeleteObjects: 1.199800 ms)
+Total: 6.836800 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.179800 ms MarkObjects: 5.189800 ms  DeleteObjects: 1.162300 ms)
 
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -1831,168 +1829,168 @@ BuildPlayer: start building target 20
 - Starting compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.002351 seconds
-- Finished ILPostProcessorRunner in 0.223393 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 0.938112 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.002516 seconds
+- Finished ILPostProcessorRunner in 0.0895 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 0.561152 seconds
 - Starting compile Library/PlayerScriptAssemblies/kcp2k.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Components.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Transports.dll
+- Starting compile Library/PlayerScriptAssemblies/Mirror.Examples.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
-- Starting compile Library/PlayerScriptAssemblies/Mirror.Examples.dll
 - Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.00166 seconds
-- Finished ILPostProcessorRunner in 0.423501 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 3.498561 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
-Find all reader and writers took 358 milliseconds
-Script Module: Mirror.dll
-Weave behaviours and messages took 486 milliseconds
-  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0030004
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 1.158665 seconds
-- Finished ILPostProcessorRunner in 1.267884 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.dll in 3.140928 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.00245 seconds
+- Finished ILPostProcessorRunner in 0.095817 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 4.317508 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.002618 seconds
-- Finished ILPostProcessorRunner in 0.145472 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 3.153501 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.002506 seconds
+- Finished ILPostProcessorRunner in 0.134089 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 3.961819 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.002318 seconds
-- Finished ILPostProcessorRunner in 0.140576 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll in 3.140649 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.002401 seconds
+- Finished ILPostProcessorRunner in 0.19262 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll in 3.949701 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.001609 seconds
-- Finished ILPostProcessorRunner in 0.070436 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll in 2.907613 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.002489 seconds
+- Finished ILPostProcessorRunner in 0.198839 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll in 3.91464 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.00157 seconds
-- Finished ILPostProcessorRunner in 0.080105 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 2.950967 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
+Find all reader and writers took 258 milliseconds
+Script Module: Mirror.dll
+Weave behaviours and messages took 502 milliseconds
+  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0021354
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 0.982907 seconds
+- Finished ILPostProcessorRunner in 1.099209 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.dll in 3.969511 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.001621 seconds
-- Finished ILPostProcessorRunner in 0.078422 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll in 2.910217 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.00253 seconds
+- Finished ILPostProcessorRunner in 0.099109 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll in 3.917617 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.001577 seconds
-- Finished ILPostProcessorRunner in 0.071377 seconds
-- Finished compile Library/PlayerScriptAssemblies/Telepathy.dll in 2.908898 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
-Find all reader and writers took 324 milliseconds
-Script Module: kcp2k.dll
-Weave behaviours and messages took 69 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.529291 seconds
-- Finished ILPostProcessorRunner in 0.604361 seconds
-- Finished compile Library/PlayerScriptAssemblies/kcp2k.dll in 2.56497 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.002502 seconds
+- Finished ILPostProcessorRunner in 0.095774 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 3.960274 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.001654 seconds
-- Finished ILPostProcessorRunner in 0.081631 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 2.992901 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.001601 seconds
+- Finished ILPostProcessorRunner in 0.097354 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 3.954429 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.001624 seconds
+- Finished ILPostProcessorRunner in 0.096323 seconds
+- Finished compile Library/PlayerScriptAssemblies/Telepathy.dll in 3.921387 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.001667 seconds
-- Finished ILPostProcessorRunner in 0.084715 seconds
-- Finished compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll in 2.94772 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll
-Find all reader and writers took 378 milliseconds
-Script Module: Mirror.Components.dll
-Weave behaviours and messages took 664 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0010010
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 1.257 seconds
-- Finished ILPostProcessorRunner in 1.33355 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Components.dll in 2.571027 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.001615 seconds
+- Finished ILPostProcessorRunner in 0.091109 seconds
+- Finished compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll in 3.906589 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll
-Find all reader and writers took 343 milliseconds
+Find all reader and writers took 340 milliseconds
 Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took 47 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0009991
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.581445 seconds
-- Finished ILPostProcessorRunner in 0.660728 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll in 2.59737 seconds
+Weave behaviours and messages took 57 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.591519 seconds
+- Finished ILPostProcessorRunner in 0.790293 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll in 2.921141 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.001623 seconds
-- Finished ILPostProcessorRunner in 0.082032 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll in 3.021547 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll
+Find all reader and writers took 379 milliseconds
+Script Module: Mirror.Components.dll
+Weave behaviours and messages took 632 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0015308
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 1.203129 seconds
+- Finished ILPostProcessorRunner in 1.274835 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Components.dll in 2.920299 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.00164 seconds
-- Finished ILPostProcessorRunner in 0.07455 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll in 1.693223 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
+Find all reader and writers took 318 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took 70 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.500761 seconds
+- Finished ILPostProcessorRunner in 0.581495 seconds
+- Finished compile Library/PlayerScriptAssemblies/kcp2k.dll in 3.03793 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll
-Find all reader and writers took 282 milliseconds
+Find all reader and writers took 302 milliseconds
 Script Module: Mirror.Transports.dll
-Weave behaviours and messages took 117 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.551961 seconds
-- Finished ILPostProcessorRunner in 0.630325 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Transports.dll in 1.750846 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.001529 seconds
-- Finished ILPostProcessorRunner in 0.068746 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 6.987476 seconds
+Weave behaviours and messages took 121 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.557523 seconds
+- Finished ILPostProcessorRunner in 0.628419 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Transports.dll in 2.673496 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll
-Find all reader and writers took 403 milliseconds
+Find all reader and writers took 419 milliseconds
 Script Module: Mirror.Examples.dll
-Weave behaviours and messages took 1033 milliseconds
-  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0020008
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 1.618097 seconds
-- Finished ILPostProcessorRunner in 1.687349 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Examples.dll in 6.891425 seconds
+Weave behaviours and messages took 1172 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0015131
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 1.776779 seconds
+- Finished ILPostProcessorRunner in 1.846907 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Examples.dll in 2.410507 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.001661 seconds
+- Finished ILPostProcessorRunner in 0.197427 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll in 4.083354 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.001524 seconds
+- Finished ILPostProcessorRunner in 0.06785 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll in 7.249492 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.001558 seconds
+- Finished ILPostProcessorRunner in 0.064248 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 6.970027 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll
-Find all reader and writers took 652 milliseconds
+Find all reader and writers took 689 milliseconds
 Script Module: Assembly-CSharp.dll
-Weave behaviours and messages took 4118 milliseconds
-  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0060176
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 5.020053 seconds
-- Finished ILPostProcessorRunner in 5.091147 seconds
-- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 6.517709 seconds
-- Finished script compilation in 9.301815 seconds
+Weave behaviours and messages took 4039 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0062162
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 4.980356 seconds
+- Finished ILPostProcessorRunner in 5.051924 seconds
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 6.615633 seconds
+- Finished script compilation in 9.734211 seconds
 Assets\Scripts\ListElement.cs(47,19): warning CS0108: 'ListElement.name' hides inherited member 'Object.name'. Use the new keyword if hiding was intended.
 Assets\Scripts\DatabaseAccessor.cs(24,46): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
 Assets\GameStateInterface.cs(59,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(101,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(131,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(180,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
-Assets\Scripts\DatabaseAccessor.cs(226,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(90,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(108,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(142,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+Assets\Scripts\DatabaseAccessor.cs(226,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(523,13): warning CS0162: Unreachable code detected
 BuildPlayerGenerator: Succeeded
-Refresh completed in 0.074496 seconds.
+Refresh completed in 0.072413 seconds.
 RefreshInfo: RefreshV2() scanfilter: 
-RefreshProfiler: Total: 74.114ms
-SpriteAtlasPacking completed in 0.017482 sec
+RefreshProfiler: Total: 72.322ms
+SpriteAtlasPacking completed in 0.016826 sec
 Opening scene 'Temp/__Backupscenes/0.backup'
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            8.236 ms
-	Integration:            8.245 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.006 ms
-	Total Operation Time:   16.491 ms
+	Deserialize:            7.790 ms
+	Integration:            9.084 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   16.913 ms
 System memory in use before: 134.0 MB.
 System memory in use after: 133.7 MB.
 
 Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 4595.
-Total: 10.785700 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.169800 ms MarkObjects: 10.000200 ms  DeleteObjects: 0.296000 ms)
+Total: 10.657900 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.166200 ms MarkObjects: 9.914500 ms  DeleteObjects: 0.285900 ms)
 
 
 
@@ -2047,30 +2045,30 @@ Dependency assembly - Unity.2D.Animation.Runtime.dll
 
 Unloading 142 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 153.2 MB.
-System memory in use after: 150.1 MB.
+System memory in use after: 150.4 MB.
 
 Unloading 853 unused Assets to reduce memory usage. Loaded Objects now: 3657.
-Total: 9.039700 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.119800 ms MarkObjects: 7.524700 ms  DeleteObjects: 1.217700 ms)
+Total: 9.902600 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.122400 ms MarkObjects: 8.312900 ms  DeleteObjects: 1.303100 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 7b24 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: 7ea8 -> priority: 1 
 System memory in use before: 143.6 MB.
-  Thread -> id: 62c0 -> priority: 1 
-  Thread -> id: 2ca8 -> priority: 1 
-System memory in use after: 143.6 MB.
+  Thread -> id: 7140 -> priority: 1 
+  Thread -> id: 4e50 -> priority: 1 
+  Thread -> id: 594c -> priority: 1 
+  Thread -> id: 86c -> priority: 1 
+System memory in use after: 143.7 MB.
 
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4349.
-Total: 10.875100 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.169400 ms MarkObjects: 10.383300 ms  DeleteObjects: 0.032900 ms)
+Total: 10.309900 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.177700 ms MarkObjects: 9.799200 ms  DeleteObjects: 0.032200 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 283.9 MB.
 System memory in use after: 143.7 MB.
 
 Unloading 155 unused Assets to reduce memory usage. Loaded Objects now: 4339.
-Total: 28.561000 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.109900 ms MarkObjects: 10.628100 ms  DeleteObjects: 17.637200 ms)
+Total: 26.884100 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.107100 ms MarkObjects: 10.546500 ms  DeleteObjects: 16.063300 ms)
 
 Compiling shader "Standard" pass "FORWARD" (vp)
     8 / 8 variants left after stripping, processed in 0.00 seconds
@@ -2225,10 +2223,7 @@ Serialized binary data for shader UI Extensions/UIMultiply in 0.00s
 Compiling shader "UI Extensions/Particles/Additive" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-    finished in 0.20 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 3 variants (0.42s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 4 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Additive in 0.00s
     gles3 (total internal programs: 4, unique: 4)
 Compiling shader "UI Extensions/UISoftAdditive" pass "Pass 0" (vp)
@@ -2388,7 +2383,7 @@ Serialized binary data for shader Hidden/ConvertTexture in 0.00s
 Compiling shader "Hidden/Internal-DeferredShading" pass "Pass 0" (vp)
     26 / 26 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 26 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 26 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DeferredShading" pass "Pass 1" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -2675,18 +2670,18 @@ Serialized binary data for shader Hidden/TextCore/Distance Field SSD in 0.00s
 ***Player size statistics***
 Level 0 'Assets/Scenes/APP.unity' uses 3.3 MB compressed / 10.7 MB uncompressed.
 Total compressed size 3.3 MB. Total uncompressed size 10.7 MB.
-Invoking UnityLinker with response file. response.rsp contents: -out="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/tempStrip" -x=C:/Users/willc/AppData/Local/Temp/tmp286d4136.tmp -x=C:/Users/willc/AppData/Local/Temp/tmp28fe1f80.tmp -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/TypesInScenes.xml" -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SerializedTypes.xml" -d="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/kcp2k.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Examples.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Transports.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Authenticators.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Telepathy.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SimpleWebTransport.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Components.dll" --dotnetruntime=il2cpp --dotnetprofile=unityaot --use-editor-options --include-directory="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --rule-set=Conservative --editor-data-file="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json" --platform=WebGL --enable-engine-module-stripping --engine-modules-asset-file="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp\build/deploy/netcoreapp3.1/UnityLinker.exe exited after 5733 ms.
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe exited after 230 ms.
+Invoking UnityLinker with response file. response.rsp contents: -out="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/tempStrip" -x=C:/Users/willc/AppData/Local/Temp/tmp1306988c.tmp -x=C:/Users/willc/AppData/Local/Temp/tmp33b28393.tmp -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/TypesInScenes.xml" -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SerializedTypes.xml" -d="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/kcp2k.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Examples.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Transports.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Authenticators.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Telepathy.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SimpleWebTransport.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Components.dll" --dotnetruntime=il2cpp --dotnetprofile=unityaot --use-editor-options --include-directory="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --rule-set=Conservative --editor-data-file="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json" --platform=WebGL --enable-engine-module-stripping --engine-modules-asset-file="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp\build/deploy/netcoreapp3.1/UnityLinker.exe exited after 6337 ms.
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe exited after 193 ms.
 Invoking il2cpp (via bee.exe) with arguments: --convert-to-cpp --dotnetprofile="unityaot" --compile-cpp --libil2cpp-static --platform="WebGL" --architecture="EmscriptenJavaScript" --configuration="Release" --outputpath="D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Library/Il2cppBuildCache/WebGL\Native\build.bc" --cachedirectory="D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Assets\..\Library/il2cpp_cache" --compiler-flags="-Oz -DIL2CPP_EXCEPTION_DISABLED=1 " --baselib-directory="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\Variations\nondevelopment" --avoid-dynamic-library-copy --emit-method-map --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AccessibilityModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AndroidJNIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AnimationModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AssetBundleModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AudioModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ClothModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_CoreModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_CrashReportingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_DirectorModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_DSPGraphModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_GameCenterModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_GIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_GridModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_HotReloadModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ImageConversionModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_IMGUIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_InputLegacyModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_InputModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_JSONSerializeModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_LocalizationModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ParticleSystemModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_PerformanceReportingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_Physics2DModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_PhysicsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ProfilerModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ScreenCaptureModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SharedInternalsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SpriteMaskModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SpriteShapeModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_StreamingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SubstanceModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SubsystemsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TerrainModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TerrainPhysicsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TextCoreModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TextRenderingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TilemapModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TLSModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UIElementsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UIElementsNativeModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UmbraModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UNETModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityAnalyticsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityConnectModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityCurlModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityTestProtocolModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestAudioModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestTextureModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestWWWModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VehiclesModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VFXModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VideoModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VRModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_WebGLModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_WindModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_XRModule_Dynamic.bc" --additional-cpp="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityClassRegistration.cpp" --additional-cpp="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityICallRegistration.cpp" --profiler-report --map-file-parser="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe" --directory="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --generatedcppdir="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/il2cppOutput" --stats-output-dir="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/il2cppStats" 
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp/build/BeeSettings/offline/bee.exe exited after 593 ms.
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp/build/BeeSettings/offline/bee.exe exited after 422 ms.
 Filename: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data\Tools\nodejs\node.exe
 Arguments: Preprocess.js "locals.inputPath='UnityLoader\x5cUnityLoader.js'" "locals.outputPath='D\x3a\x5cUnanimous\x5cCode Repos\x5cHyperswarm\x5cFlipChart\x5cUnity FlipChart\x5cTemp\x5cStagingArea\x5cData\x5cOutput\x5cBuild\x5ctest\x2dapp.loader.js'" "locals.minifyOutput=true" "COMPANY_NAME='DefaultCompany'" "PRODUCT_NAME='Mobile Swarm'" "PRODUCT_VERSION='1.0'" "WIDTH=750" "HEIGHT=1334" "SPLASH_SCREEN_STYLE='Dark'" "BACKGROUND_COLOR='\x23231F20'" "DATA_FILENAME='test\x2dapp.data'" "FRAMEWORK_FILENAME='test\x2dapp.framework.js'" "CODE_FILENAME='test\x2dapp.wasm'" "MEMORY_FILENAME=''" "SYMBOLS_FILENAME=''" "BACKGROUND_FILENAME=''" "USE_WASM=true" "USE_THREADS=false" "USE_WEBGL_1_0=false" "USE_WEBGL_2_0=true" "USE_DATA_CACHING=true" "DECOMPRESSION_FALLBACK=''" "TOTAL_MEMORY='33554432'" "DEVELOPMENT_PLAYER=false" "UNITY_VERSION='2020.3.33f1'"
 index: -1
 Filename: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data\Tools\nodejs\node.exe
 Arguments: Preprocess.js "locals.inputPath='D\x3a\x5cUnanimous\x5cCode Repos\x5cHyperswarm\x5cFlipChart\x5cUnity FlipChart\x5cTemp\x5cStagingArea\x5cData\x5cOutput\x5cindex.html'" "locals.outputPath='D\x3a\x5cUnanimous\x5cCode Repos\x5cHyperswarm\x5cFlipChart\x5cUnity FlipChart\x5cTemp\x5cStagingArea\x5cData\x5cOutput\x5cindex.html'" "locals.minifyOutput=false" "COMPANY_NAME='DefaultCompany'" "PRODUCT_NAME='Mobile Swarm'" "PRODUCT_VERSION='1.0'" "WIDTH=750" "HEIGHT=1334" "SPLASH_SCREEN_STYLE='Dark'" "BACKGROUND_COLOR='\x23231F20'" "DATA_FILENAME='test\x2dapp.data'" "FRAMEWORK_FILENAME='test\x2dapp.framework.js'" "CODE_FILENAME='test\x2dapp.wasm'" "MEMORY_FILENAME=''" "SYMBOLS_FILENAME=''" "BACKGROUND_FILENAME=''" "USE_WASM=true" "USE_THREADS=false" "USE_WEBGL_1_0=false" "USE_WEBGL_2_0=true" "USE_DATA_CACHING=true" "DECOMPRESSION_FALLBACK=''" "TOTAL_MEMORY='33554432'" "DEVELOPMENT_PLAYER=false" "UNITY_VERSION='2020.3.33f1'" "LOADER_FILENAME='test\x2dapp.loader.js'"
 index: -1
-Refreshing native plugins compatible for Editor in 1.03 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
 -------------------------------------------------------------------------------
@@ -3912,21 +3907,21 @@ System memory in use before: 161.0 MB.
 System memory in use after: 158.7 MB.
 
 Unloading 850 unused Assets to reduce memory usage. Loaded Objects now: 4360.
-Total: 12.181900 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.192300 ms MarkObjects: 10.386300 ms  DeleteObjects: 1.286800 ms)
+Total: 11.818500 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.198900 ms MarkObjects: 9.982300 ms  DeleteObjects: 1.292400 ms)
 
 DisplayProgressNotification: Build Successful
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            29.216 ms
-	Integration:            19.321 ms
-	Integration of assets:  4.542 ms
-	Thread Wait Time:       0.017 ms
-	Total Operation Time:   53.096 ms
+	Deserialize:            29.624 ms
+	Integration:            18.909 ms
+	Integration of assets:  4.317 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   52.857 ms
 System memory in use before: 152.7 MB.
-System memory in use after: 152.9 MB.
+System memory in use after: 153.0 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 14.703400 ms (FindLiveObjects: 0.783300 ms CreateObjectMapping: 0.410100 ms MarkObjects: 13.500100 ms  DeleteObjects: 0.009000 ms)
+Total: 13.391600 ms (FindLiveObjects: 0.359800 ms CreateObjectMapping: 0.188000 ms MarkObjects: 12.832900 ms  DeleteObjects: 0.010100 ms)
 
 Build successful - Build written to ../Online Builds/test-app/
 Building APP
@@ -3948,9 +3943,9 @@ BuildPlayer: start building target 20
 - Starting compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.002362 seconds
-- Finished ILPostProcessorRunner in 0.09711 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 0.507949 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.00269 seconds
+- Finished ILPostProcessorRunner in 0.094257 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 0.531208 seconds
 - Starting compile Library/PlayerScriptAssemblies/kcp2k.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Components.dll
@@ -3961,155 +3956,155 @@ BuildPlayer: start building target 20
 - Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.001643 seconds
-- Finished ILPostProcessorRunner in 0.150265 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 4.418617 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.002573 seconds
+- Finished ILPostProcessorRunner in 0.212036 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 4.174554 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.001667 seconds
-- Finished ILPostProcessorRunner in 0.160295 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 4.094024 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.002602 seconds
-- Finished ILPostProcessorRunner in 0.112413 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll in 4.081263 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.001769 seconds
-- Finished ILPostProcessorRunner in 0.108361 seconds
-- Finished compile Library/PlayerScriptAssemblies/Telepathy.dll in 4.017172 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
-Find all reader and writers took 365 milliseconds
-Script Module: Mirror.dll
-Weave behaviours and messages took 543 milliseconds
-  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0020013
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 1.130315 seconds
-- Finished ILPostProcessorRunner in 1.237822 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.dll in 4.104546 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.002588 seconds
-- Finished ILPostProcessorRunner in 0.106872 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 4.091077 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.003362 seconds
+- Finished ILPostProcessorRunner in 0.176353 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 3.858026 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.002623 seconds
-- Finished ILPostProcessorRunner in 0.111515 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll in 4.062208 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.00218 seconds
+- Finished ILPostProcessorRunner in 0.087339 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll in 3.804807 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.001668 seconds
-- Finished ILPostProcessorRunner in 0.103587 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll in 4.055003 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.002444 seconds
+- Finished ILPostProcessorRunner in 0.09703 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll in 3.794554 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
+Find all reader and writers took 327 milliseconds
+Script Module: Mirror.dll
+Weave behaviours and messages took 499 milliseconds
+  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0019969
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 1.024855 seconds
+- Finished ILPostProcessorRunner in 1.131073 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.dll in 3.865507 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.002616 seconds
+- Finished ILPostProcessorRunner in 0.099277 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll in 3.861971 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.001585 seconds
+- Finished ILPostProcessorRunner in 0.089763 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 3.857341 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.001757 seconds
+- Finished ILPostProcessorRunner in 0.099852 seconds
+- Finished compile Library/PlayerScriptAssemblies/Telepathy.dll in 3.80466 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.002546 seconds
-- Finished ILPostProcessorRunner in 0.111406 seconds
-- Finished compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll in 4.032559 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.00156 seconds
+- Finished ILPostProcessorRunner in 0.113479 seconds
+- Finished compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll in 3.798471 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.001744 seconds
-- Finished ILPostProcessorRunner in 0.115759 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 4.100351 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.002278 seconds
+- Finished ILPostProcessorRunner in 0.077461 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 3.878607 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll
-Find all reader and writers took 381 milliseconds
+Find all reader and writers took 333 milliseconds
 Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took 50 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.722579 seconds
-- Finished ILPostProcessorRunner in 0.817963 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll in 3.378928 seconds
+Weave behaviours and messages took 49 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0005143
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.572376 seconds
+- Finished ILPostProcessorRunner in 0.637805 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll in 3.130208 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
-Find all reader and writers took 344 milliseconds
+Find all reader and writers took 328 milliseconds
 Script Module: kcp2k.dll
-Weave behaviours and messages took 75 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.616654 seconds
-- Finished ILPostProcessorRunner in 0.703773 seconds
-- Finished compile Library/PlayerScriptAssemblies/kcp2k.dll in 3.466936 seconds
+Weave behaviours and messages took 65 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.513345 seconds
+- Finished ILPostProcessorRunner in 0.584054 seconds
+- Finished compile Library/PlayerScriptAssemblies/kcp2k.dll in 3.146875 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll
-Find all reader and writers took 381 milliseconds
+Find all reader and writers took 359 milliseconds
 Script Module: Mirror.Components.dll
-Weave behaviours and messages took 630 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0020000
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 1.292294 seconds
-- Finished ILPostProcessorRunner in 1.434405 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Components.dll in 3.378968 seconds
+Weave behaviours and messages took 659 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0010230
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 1.206106 seconds
+- Finished ILPostProcessorRunner in 1.283622 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Components.dll in 3.130239 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll
-Find all reader and writers took 319 milliseconds
+Find all reader and writers took 311 milliseconds
 Script Module: Mirror.Transports.dll
-Weave behaviours and messages took 124 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.576283 seconds
-- Finished ILPostProcessorRunner in 0.643803 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Transports.dll in 3.085821 seconds
+Weave behaviours and messages took 125 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.557603 seconds
+- Finished ILPostProcessorRunner in 0.631393 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Transports.dll in 2.742549 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.002486 seconds
-- Finished ILPostProcessorRunner in 0.087125 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll in 4.161339 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.001934 seconds
+- Finished ILPostProcessorRunner in 0.082179 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll in 3.921023 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll
-Find all reader and writers took 469 milliseconds
+Find all reader and writers took 406 milliseconds
 Script Module: Mirror.Examples.dll
-Weave behaviours and messages took 1046 milliseconds
-  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0020358
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 1.692661 seconds
-- Finished ILPostProcessorRunner in 1.755043 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Examples.dll in 2.721037 seconds
+Weave behaviours and messages took 1012 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0015433
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 1.644033 seconds
+- Finished ILPostProcessorRunner in 1.707673 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Examples.dll in 2.517549 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.001622 seconds
-- Finished ILPostProcessorRunner in 0.072158 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll in 7.794949 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.001539 seconds
+- Finished ILPostProcessorRunner in 0.079909 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll in 7.517428 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.001641 seconds
-- Finished ILPostProcessorRunner in 0.071827 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 7.735771 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.001664 seconds
+- Finished ILPostProcessorRunner in 0.0746 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 7.371454 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll
-Find all reader and writers took 634 milliseconds
+Find all reader and writers took 625 milliseconds
 Script Module: Assembly-CSharp.dll
-Weave behaviours and messages took 4067 milliseconds
-  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0057165
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 4.947912 seconds
-- Finished ILPostProcessorRunner in 5.024596 seconds
-- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 7.317327 seconds
-- Finished script compilation in 9.883609 seconds
+Weave behaviours and messages took 4006 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0056217
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 4.87223 seconds
+- Finished ILPostProcessorRunner in 4.943969 seconds
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 7.068021 seconds
+- Finished script compilation in 9.450499 seconds
 Assets\Scripts\ListElement.cs(47,19): warning CS0108: 'ListElement.name' hides inherited member 'Object.name'. Use the new keyword if hiding was intended.
 Assets\Scripts\DatabaseAccessor.cs(24,46): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
 Assets\GameStateInterface.cs(59,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(101,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(131,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(180,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+Assets\Scripts\DatabaseAccessor.cs(226,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(90,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(108,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
-Assets\Scripts\DatabaseAccessor.cs(226,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Tamarin\Firebase\Examples\FirebaseExamples.cs(142,22): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(523,13): warning CS0162: Unreachable code detected
 BuildPlayerGenerator: Succeeded
-Refresh completed in 0.076868 seconds.
+Refresh completed in 0.072337 seconds.
 RefreshInfo: RefreshV2() scanfilter: 
-RefreshProfiler: Total: 76.457ms
-SpriteAtlasPacking completed in 0.013607 sec
+RefreshProfiler: Total: 72.216ms
+SpriteAtlasPacking completed in 0.013038 sec
 Opening scene 'Assets/Scenes/Moderator.unity'
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Moderator.unity'
-	Deserialize:            7.931 ms
-	Integration:            11.766 ms
-	Integration of assets:  0.373 ms
-	Thread Wait Time:       0.006 ms
-	Total Operation Time:   20.076 ms
+	Deserialize:            7.733 ms
+	Integration:            11.895 ms
+	Integration of assets:  0.368 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   20.010 ms
 System memory in use before: 154.3 MB.
 System memory in use after: 153.5 MB.
 
 Unloading 261 unused Assets to reduce memory usage. Loaded Objects now: 4803.
-Total: 13.178100 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.195200 ms MarkObjects: 12.110900 ms  DeleteObjects: 0.532000 ms)
+Total: 12.886500 ms (FindLiveObjects: 0.337400 ms CreateObjectMapping: 0.180200 ms MarkObjects: 11.837700 ms  DeleteObjects: 0.530500 ms)
 
 
 
@@ -4164,10 +4159,10 @@ Dependency assembly - Unity.2D.Animation.Runtime.dll
 
 Unloading 144 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 153.3 MB.
-System memory in use after: 152.0 MB.
+System memory in use after: 152.1 MB.
 
 Unloading 657 unused Assets to reduce memory usage. Loaded Objects now: 4516.
-Total: 11.865700 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.119600 ms MarkObjects: 10.587900 ms  DeleteObjects: 0.955900 ms)
+Total: 12.185900 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.124800 ms MarkObjects: 10.964800 ms  DeleteObjects: 0.898300 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
@@ -4175,14 +4170,14 @@ System memory in use before: 144.9 MB.
 System memory in use after: 144.8 MB.
 
 Unloading 175 unused Assets to reduce memory usage. Loaded Objects now: 4352.
-Total: 10.644200 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.155200 ms MarkObjects: 10.072900 ms  DeleteObjects: 0.132600 ms)
+Total: 21.054200 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.182500 ms MarkObjects: 20.409400 ms  DeleteObjects: 0.139800 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 284.8 MB.
 System memory in use after: 144.6 MB.
 
 Unloading 155 unused Assets to reduce memory usage. Loaded Objects now: 4342.
-Total: 29.847200 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.111100 ms MarkObjects: 10.599200 ms  DeleteObjects: 18.935300 ms)
+Total: 26.904500 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.107700 ms MarkObjects: 10.192100 ms  DeleteObjects: 16.434300 ms)
 
 Compiling shader "Standard" pass "FORWARD" (vp)
     8 / 8 variants left after stripping, processed in 0.00 seconds
@@ -4241,7 +4236,10 @@ Serialized binary data for shader UI Extensions/Particles/Multiply (Double) in 0
 Compiling shader "UI Extensions/Particles/~Additive-Multiply" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 4 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+    finished in 0.18 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 3 variants (0.39s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/~Additive-Multiply in 0.00s
     gles3 (total internal programs: 4, unique: 4)
 Compiling shader "UI Extensions/UIAdditive" pass "Pass 0" (vp)
@@ -4737,7 +4735,7 @@ Compiling shader "Hidden/Internal-ODSWorldTexture" pass "Pass 0" (vp)
 Compiling shader "Hidden/Internal-ODSWorldTexture" pass "Pass 1" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-ODSWorldTexture" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4784,18 +4782,18 @@ Serialized binary data for shader Hidden/TextCore/Distance Field SSD in 0.00s
 ***Player size statistics***
 Level 0 'Assets/Scenes/Moderator.unity' uses 1.2 MB compressed / 3.7 MB uncompressed.
 Total compressed size 1.2 MB. Total uncompressed size 3.7 MB.
-Invoking UnityLinker with response file. response.rsp contents: -out="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/tempStrip" -x=C:/Users/willc/AppData/Local/Temp/tmp4a8dc098.tmp -x=C:/Users/willc/AppData/Local/Temp/tmp71ecb522.tmp -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/TypesInScenes.xml" -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SerializedTypes.xml" -d="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/kcp2k.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Examples.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Transports.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Authenticators.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Telepathy.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SimpleWebTransport.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Components.dll" --dotnetruntime=il2cpp --dotnetprofile=unityaot --use-editor-options --include-directory="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --rule-set=Conservative --editor-data-file="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json" --platform=WebGL --enable-engine-module-stripping --engine-modules-asset-file="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp\build/deploy/netcoreapp3.1/UnityLinker.exe exited after 6338 ms.
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe exited after 244 ms.
+Invoking UnityLinker with response file. response.rsp contents: -out="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/tempStrip" -x=C:/Users/willc/AppData/Local/Temp/tmp67946c8a.tmp -x=C:/Users/willc/AppData/Local/Temp/tmp480a3e17.tmp -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/TypesInScenes.xml" -x="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SerializedTypes.xml" -d="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/kcp2k.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Examples.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Transports.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Authenticators.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Telepathy.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/SimpleWebTransport.dll" --include-unity-root-assembly="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/Mirror.Components.dll" --dotnetruntime=il2cpp --dotnetprofile=unityaot --use-editor-options --include-directory="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --rule-set=Conservative --editor-data-file="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json" --platform=WebGL --enable-engine-module-stripping --engine-modules-asset-file="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp\build/deploy/netcoreapp3.1/UnityLinker.exe exited after 5771 ms.
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe exited after 180 ms.
 Invoking il2cpp (via bee.exe) with arguments: --convert-to-cpp --dotnetprofile="unityaot" --compile-cpp --libil2cpp-static --platform="WebGL" --architecture="EmscriptenJavaScript" --configuration="Release" --outputpath="D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Library/Il2cppBuildCache/WebGL\Native\build.bc" --cachedirectory="D:\Unanimous\Code Repos\Hyperswarm\FlipChart\Unity FlipChart\Assets\..\Library/il2cpp_cache" --compiler-flags="-Oz -DIL2CPP_EXCEPTION_DISABLED=1 " --baselib-directory="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\Variations\nondevelopment" --avoid-dynamic-library-copy --emit-method-map --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AccessibilityModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AndroidJNIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AnimationModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AssetBundleModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_AudioModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ClothModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_CoreModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_CrashReportingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_DirectorModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_DSPGraphModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_GameCenterModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_GIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_GridModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_HotReloadModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ImageConversionModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_IMGUIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_InputLegacyModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_InputModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_JSONSerializeModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_LocalizationModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ParticleSystemModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_PerformanceReportingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_Physics2DModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_PhysicsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ProfilerModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_ScreenCaptureModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SharedInternalsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SpriteMaskModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SpriteShapeModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_StreamingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SubstanceModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_SubsystemsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TerrainModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TerrainPhysicsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TextCoreModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TextRenderingModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TilemapModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_TLSModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UIElementsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UIElementsNativeModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UIModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UmbraModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UNETModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityAnalyticsModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityConnectModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityCurlModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityTestProtocolModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestAudioModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestTextureModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_UnityWebRequestWWWModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VehiclesModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VFXModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VideoModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_VRModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_WebGLModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_WindModule_Dynamic.bc" --additional-libraries="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport\BuildTools\lib\modules\WebGLSupport_XRModule_Dynamic.bc" --additional-cpp="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityClassRegistration.cpp" --additional-cpp="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityICallRegistration.cpp" --profiler-report --map-file-parser="C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe" --directory="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Temp/StagingArea/Data/Managed" --generatedcppdir="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/il2cppOutput" --stats-output-dir="D:/Unanimous/Code Repos/Hyperswarm/FlipChart/Unity FlipChart/Library/Il2cppBuildCache/WebGL/il2cppStats" 
-C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp/build/BeeSettings/offline/bee.exe exited after 419 ms.
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\il2cpp/build/BeeSettings/offline/bee.exe exited after 431 ms.
 Filename: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data\Tools\nodejs\node.exe
 Arguments: Preprocess.js "locals.inputPath='UnityLoader\x5cUnityLoader.js'" "locals.outputPath='D\x3a\x5cUnanimous\x5cCode Repos\x5cHyperswarm\x5cFlipChart\x5cUnity FlipChart\x5cTemp\x5cStagingArea\x5cData\x5cOutput\x5cBuild\x5ctest\x2dmoderator.loader.js'" "locals.minifyOutput=true" "COMPANY_NAME='DefaultCompany'" "PRODUCT_NAME='Mobile Swarm'" "PRODUCT_VERSION='1.0'" "WIDTH=750" "HEIGHT=1334" "SPLASH_SCREEN_STYLE='Dark'" "BACKGROUND_COLOR='\x23231F20'" "DATA_FILENAME='test\x2dmoderator.data'" "FRAMEWORK_FILENAME='test\x2dmoderator.framework.js'" "CODE_FILENAME='test\x2dmoderator.wasm'" "MEMORY_FILENAME=''" "SYMBOLS_FILENAME=''" "BACKGROUND_FILENAME=''" "USE_WASM=true" "USE_THREADS=false" "USE_WEBGL_1_0=false" "USE_WEBGL_2_0=true" "USE_DATA_CACHING=true" "DECOMPRESSION_FALLBACK=''" "TOTAL_MEMORY='33554432'" "DEVELOPMENT_PLAYER=false" "UNITY_VERSION='2020.3.33f1'"
 index: -1
 Filename: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data\Tools\nodejs\node.exe
 Arguments: Preprocess.js "locals.inputPath='D\x3a\x5cUnanimous\x5cCode Repos\x5cHyperswarm\x5cFlipChart\x5cUnity FlipChart\x5cTemp\x5cStagingArea\x5cData\x5cOutput\x5cindex.html'" "locals.outputPath='D\x3a\x5cUnanimous\x5cCode Repos\x5cHyperswarm\x5cFlipChart\x5cUnity FlipChart\x5cTemp\x5cStagingArea\x5cData\x5cOutput\x5cindex.html'" "locals.minifyOutput=false" "COMPANY_NAME='DefaultCompany'" "PRODUCT_NAME='Mobile Swarm'" "PRODUCT_VERSION='1.0'" "WIDTH=750" "HEIGHT=1334" "SPLASH_SCREEN_STYLE='Dark'" "BACKGROUND_COLOR='\x23231F20'" "DATA_FILENAME='test\x2dmoderator.data'" "FRAMEWORK_FILENAME='test\x2dmoderator.framework.js'" "CODE_FILENAME='test\x2dmoderator.wasm'" "MEMORY_FILENAME=''" "SYMBOLS_FILENAME=''" "BACKGROUND_FILENAME=''" "USE_WASM=true" "USE_THREADS=false" "USE_WEBGL_1_0=false" "USE_WEBGL_2_0=true" "USE_DATA_CACHING=true" "DECOMPRESSION_FALLBACK=''" "TOTAL_MEMORY='33554432'" "DEVELOPMENT_PLAYER=false" "UNITY_VERSION='2020.3.33f1'" "LOADER_FILENAME='test\x2dmoderator.loader.js'"
 index: -1
-Refreshing native plugins compatible for Editor in 1.09 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
 -------------------------------------------------------------------------------
@@ -5980,130 +5978,130 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
 -------------------------------------------------------------------------------
 Unloading 154 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 153.1 MB.
-System memory in use after: 151.4 MB.
+System memory in use after: 151.5 MB.
 
 Unloading 830 unused Assets to reduce memory usage. Loaded Objects now: 4360.
-Total: 12.079800 ms (FindLiveObjects: 0.355900 ms CreateObjectMapping: 0.193500 ms MarkObjects: 10.331700 ms  DeleteObjects: 1.198000 ms)
+Total: 12.133900 ms (FindLiveObjects: 0.460200 ms CreateObjectMapping: 0.180900 ms MarkObjects: 10.285200 ms  DeleteObjects: 1.206800 ms)
 
 DisplayProgressNotification: Build Successful
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            28.989 ms
-	Integration:            35.757 ms
-	Integration of assets:  4.163 ms
-	Thread Wait Time:       0.045 ms
-	Total Operation Time:   68.954 ms
-System memory in use before: 152.7 MB.
+	Deserialize:            29.190 ms
+	Integration:            20.166 ms
+	Integration of assets:  4.062 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   53.454 ms
+System memory in use before: 152.8 MB.
 System memory in use after: 153.0 MB.
 
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 13.211300 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.168100 ms MarkObjects: 12.689600 ms  DeleteObjects: 0.009100 ms)
+Total: 13.705700 ms (FindLiveObjects: 0.371200 ms CreateObjectMapping: 0.174900 ms MarkObjects: 13.150900 ms  DeleteObjects: 0.008100 ms)
 
 Build successful - Build written to ../Online Builds/test-moderator/
 Batchmode quit successfully invoked - shutting down!
-[Performance] WinEditorMain                                               :        1 samples, Peak.  2.83 s (1.0x), Avg.  2.83 s, Total. 2.828 s (2.8%)
-[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  23.6 us (1.0x), Avg.  23.6 us, Total. 23.60 us (0.0%)
-[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  1.41 ms (1.0x), Avg.  1.41 ms, Total. 1.410 ms (0.0%)
-[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.  1.48 ms (1.0x), Avg.  1.48 ms, Total. 1.483 ms (0.0%)
+[Performance] WinEditorMain                                               :        1 samples, Peak.  3.62 s (1.0x), Avg.  3.62 s, Total. 3.616 s (2.9%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  23.1 us (1.0x), Avg.  23.1 us, Total. 23.10 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  1.30 ms (1.0x), Avg.  1.30 ms, Total. 1.296 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.  1.46 ms (1.0x), Avg.  1.46 ms, Total. 1.462 ms (0.0%)
 [Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.   100 ns (1.0x), Avg.   100 ns, Total. 100.0 ns (0.0%)
-[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  2.79 s (1.0x), Avg.  2.79 s, Total. 2.789 s (2.8%)
-[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  12.2 ms (1.0x), Avg.  12.2 ms, Total. 12.21 ms (0.0%)
-[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   231 us (1.0x), Avg.   231 us, Total. 231.5 us (0.0%)
-[Performance] Application.InitializeProject                               :        1 samples, Peak.  26.2 s (1.0x), Avg.  26.2 s, Total. 26.20 s (26.0%)
-[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  4.44 ms (1.0x), Avg.  4.44 ms, Total. 4.438 ms (0.0%)
-[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  5.71 ms (1.0x), Avg.  5.71 ms, Total. 5.710 ms (0.0%)
-[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  15.5 ms (1.0x), Avg.  15.5 ms, Total. 15.50 ms (0.0%)
-[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.03 s (1.0x), Avg.  1.03 s, Total. 1.035 s (1.0%)
-[Performance] CurlRequestCheck                                            :       20 samples, Peak.  2.99 ms (18.2x), Avg.   164 us, Total. 3.282 ms (0.0%)
-[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  13.9 us (1.0x), Avg.  13.9 us, Total. 13.90 us (0.0%)
-[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   129 ms (1.0x), Avg.   129 ms, Total. 128.8 ms (0.1%)
-[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  2.32 ms (1.0x), Avg.  2.32 ms, Total. 2.322 ms (0.0%)
-[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.55 ms (1.0x), Avg.  1.55 ms, Total. 1.547 ms (0.0%)
-[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.   621 ms (1.0x), Avg.   621 ms, Total. 621.4 ms (0.6%)
-[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  64.3 ms (2.0x), Avg.  32.2 ms, Total. 64.34 ms (0.1%)
-[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   328 us (1.1x), Avg.   293 us, Total. 585.7 us (0.0%)
-[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  14.3 ms (1.0x), Avg.  14.3 ms, Total. 14.33 ms (0.0%)
-[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  20.1 s (1.0x), Avg.  20.1 s, Total. 20.12 s (19.9%)
-[Performance] Compiling Scripts                                           :        1 samples, Peak.  16.1 s (1.0x), Avg.  16.1 s, Total. 16.07 s (15.9%)
-[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  2.55 s (1.0x), Avg.  2.55 s, Total. 2.547 s (2.5%)
-[Performance] AssetDatabase.Refresh                                       :        1 samples, Peak.  2.55 s (1.0x), Avg.  2.55 s, Total. 2.547 s (2.5%)
-[Performance] PresetManagerPostProcessor.OnPreprocessAsset                :       13 samples, Peak.   295 us (8.0x), Avg.  36.7 us, Total. 477.5 us (0.0%)
-[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset           :       13 samples, Peak.   124 us (9.8x), Avg.  12.7 us, Total. 164.8 us (0.0%)
-[Performance] AssetDatabase.ImportAssets                                  :        5 samples, Peak.  1.20 us (3.0x), Avg.   400 ns, Total. 2.000 us (0.0%)
-[Performance] PlayServicesResolver.OnPostprocessAllAssets                 :        1 samples, Peak.   330 us (1.0x), Avg.   330 us, Total. 329.9 us (0.0%)
-[Performance] VersionHandlerImpl.OnPostprocessAllAssets                   :        1 samples, Peak.  1.60 ms (1.0x), Avg.  1.60 ms, Total. 1.595 ms (0.0%)
-[Performance] GenerateXmlFromGoogleServicesJson.OnPostprocessAllAssets    :        1 samples, Peak.   304 us (1.0x), Avg.   304 us, Total. 304.1 us (0.0%)
-[Performance] SettingsWindowUpdater.OnPostprocessAllAssets                :        1 samples, Peak.  67.6 us (1.0x), Avg.  67.6 us, Total. 67.60 us (0.0%)
-[Performance] XcodeProjectPatcher.OnPostprocessAllAssets                  :        1 samples, Peak.   140 us (1.0x), Avg.   140 us, Total. 140.3 us (0.0%)
-[Performance] IOSResolver.OnPostprocessAllAssets                          :        1 samples, Peak.   272 us (1.0x), Avg.   272 us, Total. 271.8 us (0.0%)
-[Performance] AndroidManifestPatcher.OnPostprocessAllAssets               :        1 samples, Peak.   115 us (1.0x), Avg.   115 us, Total. 115.4 us (0.0%)
-[Performance] PackageManagerResolver.OnPostprocessAllAssets               :        1 samples, Peak.  7.81 ms (1.0x), Avg.  7.81 ms, Total. 7.814 ms (0.0%)
-[Performance] AssemblyPostProcessor.OnPostprocessAllAssets                :        1 samples, Peak.   548 us (1.0x), Avg.   548 us, Total. 547.6 us (0.0%)
-[Performance] SpriteShapeAssetPostProcessor.OnPostprocessAllAssets        :        1 samples, Peak.   387 us (1.0x), Avg.   387 us, Total. 387.0 us (0.0%)
-[Performance] AssetPostprocessor.OnPostprocessAllAssets                   :        1 samples, Peak.   216 us (1.0x), Avg.   216 us, Total. 216.2 us (0.0%)
-[Performance] PSDImportPostProcessor.OnPostprocessAllAssets               :        1 samples, Peak.   230 us (1.0x), Avg.   230 us, Total. 230.3 us (0.0%)
-[Performance] SpriteEditorTexturePostprocessor.OnPostprocessAllAssets     :        1 samples, Peak.   251 us (1.0x), Avg.   251 us, Total. 251.5 us (0.0%)
-[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets           :        1 samples, Peak.   404 us (1.0x), Avg.   404 us, Total. 403.6 us (0.0%)
-[Performance] AssetProcessor.OnPostprocessAllAssets                       :        3 samples, Peak.  1.47 ms (1.8x), Avg.   817 us, Total. 2.452 ms (0.0%)
-[Performance] RetainedMode.OnPostprocessAllAssets                         :        1 samples, Peak.   938 us (1.0x), Avg.   938 us, Total. 937.8 us (0.0%)
-[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets           :        1 samples, Peak.   194 us (1.0x), Avg.   194 us, Total. 194.4 us (0.0%)
-[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets              :        1 samples, Peak.   362 us (1.0x), Avg.   362 us, Total. 362.0 us (0.0%)
-[Performance] AssetEvents.OnPostprocessAllAssets                          :        2 samples, Peak.   172 us (1.5x), Avg.   114 us, Total. 227.9 us (0.0%)
-[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets           :        1 samples, Peak.   764 us (1.0x), Avg.   764 us, Total. 764.0 us (0.0%)
-[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets            :        1 samples, Peak.  67.2 ms (1.0x), Avg.  67.2 ms, Total. 67.21 ms (0.1%)
-[Performance] BuildCatalog                                                :        1 samples, Peak.  66.5 ms (1.0x), Avg.  66.5 ms, Total. 66.52 ms (0.1%)
-[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   131 ms (1.0x), Avg.   131 ms, Total. 131.3 ms (0.1%)
-[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   257 ms (1.0x), Avg.   257 ms, Total. 256.7 ms (0.3%)
-[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  5.08 ms (1.0x), Avg.  5.08 ms, Total. 5.083 ms (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  3.58 s (1.0x), Avg.  3.58 s, Total. 3.577 s (2.8%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  12.0 ms (1.0x), Avg.  12.0 ms, Total. 11.99 ms (0.0%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   218 us (1.0x), Avg.   218 us, Total. 218.4 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  24.8 s (1.0x), Avg.  24.8 s, Total. 24.81 s (19.6%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  4.37 ms (1.0x), Avg.  4.37 ms, Total. 4.373 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  5.27 ms (1.0x), Avg.  5.27 ms, Total. 5.266 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  14.9 ms (1.0x), Avg.  14.9 ms, Total. 14.89 ms (0.0%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.06 s (1.0x), Avg.  1.06 s, Total. 1.055 s (0.8%)
+[Performance] CurlRequestCheck                                            :       21 samples, Peak.  1.09 ms (17.6x), Avg.  61.9 us, Total. 1.299 ms (0.0%)
+[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  14.1 us (1.0x), Avg.  14.1 us, Total. 14.10 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   121 ms (1.0x), Avg.   121 ms, Total. 121.2 ms (0.1%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  2.30 ms (1.0x), Avg.  2.30 ms, Total. 2.303 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.53 ms (1.0x), Avg.  1.53 ms, Total. 1.528 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.   615 ms (1.0x), Avg.   615 ms, Total. 614.7 ms (0.5%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  64.7 ms (2.0x), Avg.  32.3 ms, Total. 64.66 ms (0.1%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   309 us (1.2x), Avg.   264 us, Total. 528.3 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  13.3 ms (1.0x), Avg.  13.3 ms, Total. 13.34 ms (0.0%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  20.0 s (1.0x), Avg.  20.0 s, Total. 19.98 s (15.7%)
+[Performance] Compiling Scripts                                           :        1 samples, Peak.  15.8 s (1.0x), Avg.  15.8 s, Total. 15.77 s (12.4%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.   779 ms (1.0x), Avg.   779 ms, Total. 779.4 ms (0.6%)
+[Performance] AssetDatabase.Refresh                                       :        1 samples, Peak.   779 ms (1.0x), Avg.   779 ms, Total. 779.4 ms (0.6%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                :       13 samples, Peak.   297 us (8.4x), Avg.  35.6 us, Total. 462.6 us (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset           :       13 samples, Peak.   130 us (10.0x), Avg.  13.0 us, Total. 169.0 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                  :        5 samples, Peak.  1.00 us (2.2x), Avg.   460 ns, Total. 2.300 us (0.0%)
+[Performance] PlayServicesResolver.OnPostprocessAllAssets                 :        1 samples, Peak.   335 us (1.0x), Avg.   335 us, Total. 334.9 us (0.0%)
+[Performance] VersionHandlerImpl.OnPostprocessAllAssets                   :        1 samples, Peak.  1.64 ms (1.0x), Avg.  1.64 ms, Total. 1.640 ms (0.0%)
+[Performance] GenerateXmlFromGoogleServicesJson.OnPostprocessAllAssets    :        1 samples, Peak.   292 us (1.0x), Avg.   292 us, Total. 292.3 us (0.0%)
+[Performance] SettingsWindowUpdater.OnPostprocessAllAssets                :        1 samples, Peak.  70.5 us (1.0x), Avg.  70.5 us, Total. 70.50 us (0.0%)
+[Performance] XcodeProjectPatcher.OnPostprocessAllAssets                  :        1 samples, Peak.   148 us (1.0x), Avg.   148 us, Total. 147.7 us (0.0%)
+[Performance] IOSResolver.OnPostprocessAllAssets                          :        1 samples, Peak.   273 us (1.0x), Avg.   273 us, Total. 273.3 us (0.0%)
+[Performance] AndroidManifestPatcher.OnPostprocessAllAssets               :        1 samples, Peak.   121 us (1.0x), Avg.   121 us, Total. 120.6 us (0.0%)
+[Performance] PackageManagerResolver.OnPostprocessAllAssets               :        1 samples, Peak.  5.59 ms (1.0x), Avg.  5.59 ms, Total. 5.587 ms (0.0%)
+[Performance] AssemblyPostProcessor.OnPostprocessAllAssets                :        1 samples, Peak.   353 us (1.0x), Avg.   353 us, Total. 353.0 us (0.0%)
+[Performance] SpriteShapeAssetPostProcessor.OnPostprocessAllAssets        :        1 samples, Peak.   376 us (1.0x), Avg.   376 us, Total. 375.7 us (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                   :        1 samples, Peak.   218 us (1.0x), Avg.   218 us, Total. 217.8 us (0.0%)
+[Performance] PSDImportPostProcessor.OnPostprocessAllAssets               :        1 samples, Peak.   185 us (1.0x), Avg.   185 us, Total. 185.3 us (0.0%)
+[Performance] SpriteEditorTexturePostprocessor.OnPostprocessAllAssets     :        1 samples, Peak.   251 us (1.0x), Avg.   251 us, Total. 251.0 us (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets           :        1 samples, Peak.   452 us (1.0x), Avg.   452 us, Total. 452.1 us (0.0%)
+[Performance] AssetProcessor.OnPostprocessAllAssets                       :        3 samples, Peak.  1.40 ms (1.8x), Avg.   783 us, Total. 2.350 ms (0.0%)
+[Performance] RetainedMode.OnPostprocessAllAssets                         :        1 samples, Peak.   887 us (1.0x), Avg.   887 us, Total. 886.7 us (0.0%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets           :        1 samples, Peak.   187 us (1.0x), Avg.   187 us, Total. 187.4 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets              :        1 samples, Peak.   373 us (1.0x), Avg.   373 us, Total. 372.6 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                          :        2 samples, Peak.   171 us (1.5x), Avg.   114 us, Total. 228.2 us (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets           :        1 samples, Peak.   758 us (1.0x), Avg.   758 us, Total. 758.4 us (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets            :        1 samples, Peak.  64.6 ms (1.0x), Avg.  64.6 ms, Total. 64.57 ms (0.1%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  63.9 ms (1.0x), Avg.  63.9 ms, Total. 63.91 ms (0.1%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   127 ms (1.0x), Avg.   127 ms, Total. 126.6 ms (0.1%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   208 ms (1.0x), Avg.   208 ms, Total. 207.9 ms (0.2%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  4.82 ms (1.0x), Avg.  4.82 ms, Total. 4.823 ms (0.0%)
 [Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
-[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  1.12 ms (1.0x), Avg.  1.12 ms, Total. 1.125 ms (0.0%)
-[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.   110 ms (1.0x), Avg.   110 ms, Total. 109.9 ms (0.1%)
-[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  47.6 ms (1.0x), Avg.  47.6 ms, Total. 47.63 ms (0.0%)
-[Performance] Gizmo.RebuildRenderers                                      :        3 samples, Peak.  43.9 ms (2.9x), Avg.  15.0 ms, Total. 45.06 ms (0.0%)
-[Performance] Gizmo.AddGizmoRenderers                                     :      282 samples, Peak.  2.04 ms (109.6x), Avg.  18.6 us, Total. 5.247 ms (0.0%)
-[Performance] Application.InitializeMenu                                  :        1 samples, Peak.   414 ms (1.0x), Avg.   414 ms, Total. 414.0 ms (0.4%)
-[Performance] UpdateAllMenus                                              :        1 samples, Peak.   411 ms (1.0x), Avg.   411 ms, Total. 410.8 ms (0.4%)
-[Performance] Application.editorInitializingProject                       :        1 samples, Peak.   265 ms (1.0x), Avg.   265 ms, Total. 264.8 ms (0.3%)
-[Performance] Application.RestoreLastOpenedScenes                         :        1 samples, Peak.   547 ms (1.0x), Avg.   547 ms, Total. 547.4 ms (0.5%)
-[Performance] Inspector.InitOrRebuild                                     :        5 samples, Peak.  7.64 ms (4.2x), Avg.  1.82 ms, Total. 9.095 ms (0.0%)
-[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  7.45 ms (1.0x), Avg.  7.45 ms, Total. 7.447 ms (0.0%)
-[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  47.5 us (1.0x), Avg.  47.5 us, Total. 47.50 us (0.0%)
-[Performance] GenerateAssemblyTypeInfos                                   :        4 samples, Peak.   705 ms (1.0x), Avg.   683 ms, Total. 2.733 s (2.7%)
-[Performance] GUIView.RepaintAll.PlayerLoopController                     :        6 samples, Peak.   377 ms (5.0x), Avg.  75.3 ms, Total. 451.8 ms (0.4%)
-[Performance] InspectorWindow.Paint                                       :        4 samples, Peak.   160 ms (3.9x), Avg.  40.7 ms, Total. 162.8 ms (0.2%)
-[Performance] InspectorWindow.Repaint                                     :        4 samples, Peak.   159 ms (3.9x), Avg.  40.3 ms, Total. 161.3 ms (0.2%)
-[Performance] RefreshSkin                                                 :        1 samples, Peak.  31.1 ms (1.0x), Avg.  31.1 ms, Total. 31.11 ms (0.0%)
-[Performance] InspectorWindow.OnGUI.Layout                                :        4 samples, Peak.  44.3 us (3.7x), Avg.  11.9 us, Total. 47.60 us (0.0%)
-[Performance] InspectorWindow.OnGUI.repaint                               :        4 samples, Peak.  1.90 us (2.1x), Avg.   925 ns, Total. 3.700 us (0.0%)
-[Performance] GameView.Paint                                              :        6 samples, Peak.  22.8 ms (4.2x), Avg.  5.48 ms, Total. 32.88 ms (0.0%)
-[Performance] GameView.Repaint                                            :        6 samples, Peak.  22.5 ms (4.2x), Avg.  5.36 ms, Total. 32.14 ms (0.0%)
-[Performance] GameView.OnGUI.Layout                                       :        6 samples, Peak.  12.0 ms (5.0x), Avg.  2.41 ms, Total. 14.48 ms (0.0%)
-[Performance] GameView.OnGUI.repaint                                      :        6 samples, Peak.  7.30 ms (3.8x), Avg.  1.91 ms, Total. 11.48 ms (0.0%)
-[Performance] AppStatusBar.Paint                                          :        4 samples, Peak.  7.51 ms (3.3x), Avg.  2.27 ms, Total. 9.067 ms (0.0%)
-[Performance] AppStatusBar.Repaint                                        :        4 samples, Peak.  7.44 ms (3.4x), Avg.  2.17 ms, Total. 8.668 ms (0.0%)
-[Performance] SceneView.Paint                                             :        6 samples, Peak.  87.2 ms (4.7x), Avg.  18.5 ms, Total. 111.0 ms (0.1%)
-[Performance] SceneView.Repaint                                           :        6 samples, Peak.  87.1 ms (5.3x), Avg.  16.4 ms, Total. 98.64 ms (0.1%)
-[Performance] SceneView.OnGUI.Layout                                      :        6 samples, Peak.  64.1 ms (5.9x), Avg.  10.9 ms, Total. 65.64 ms (0.1%)
-[Performance] SceneView.OnGUI.repaint                                     :        6 samples, Peak.  19.9 ms (4.5x), Avg.  4.41 ms, Total. 26.44 ms (0.0%)
-[Performance] GizmoManager.DrawGizmos                                     :       12 samples, Peak.  9.24 ms (10.1x), Avg.   914 us, Total. 10.97 ms (0.0%)
-[Performance] GizmoManager.RecalculateGizmosIfDirty                       :        4 samples, Peak.  25.0 us (1.7x), Avg.  14.9 us, Total. 59.80 us (0.0%)
-[Performance] GizmoManager.RecalculateGizmos                              :        4 samples, Peak.  9.40 us (1.4x), Avg.  6.88 us, Total. 27.50 us (0.0%)
-[Performance] SceneHierarchyWindow.Paint                                  :        6 samples, Peak.  22.0 ms (4.2x), Avg.  5.22 ms, Total. 31.35 ms (0.0%)
-[Performance] SceneHierarchyWindow.Repaint                                :        6 samples, Peak.  21.9 ms (4.3x), Avg.  5.12 ms, Total. 30.72 ms (0.0%)
-[Performance] SceneHierarchyWindow.OnGUI.Layout                           :        6 samples, Peak.  16.7 ms (5.2x), Avg.  3.23 ms, Total. 19.38 ms (0.0%)
-[Performance] SceneHierarchyWindow.OnGUI.repaint                          :        6 samples, Peak.  3.13 ms (2.8x), Avg.  1.11 ms, Total. 6.634 ms (0.0%)
-[Performance] SceneVisibilityState.IsFlagSetInParents                     :       12 samples, Peak.  2.00 us (1.5x), Avg.  1.38 us, Total. 16.50 us (0.0%)
-[Performance] SceneVisibilityState.HasData                                :       12 samples, Peak.   500 ns (3.2x), Avg.   158 ns, Total. 1.900 us (0.0%)
-[Performance] Toolbar.Paint                                               :        4 samples, Peak.  21.4 ms (2.8x), Avg.  7.74 ms, Total. 30.94 ms (0.0%)
-[Performance] Toolbar.Repaint                                             :        4 samples, Peak.  21.3 ms (2.8x), Avg.  7.60 ms, Total. 30.41 ms (0.0%)
-[Performance] ConsoleWindow.Paint                                         :        4 samples, Peak.  10.9 ms (3.0x), Avg.  3.61 ms, Total. 14.45 ms (0.0%)
-[Performance] ConsoleWindow.Repaint                                       :        4 samples, Peak.  10.8 ms (3.1x), Avg.  3.55 ms, Total. 14.20 ms (0.0%)
-[Performance] ConsoleWindow.OnGUI.Layout                                  :        4 samples, Peak.  7.77 ms (3.8x), Avg.  2.05 ms, Total. 8.190 ms (0.0%)
-[Performance] ConsoleWindow.OnGUI.repaint                                 :        4 samples, Peak.   482 us (1.1x), Avg.   427 us, Total. 1.709 ms (0.0%)
-[Performance] AnimatorControllerTool.Paint                                :        6 samples, Peak.  42.7 ms (4.6x), Avg.  9.38 ms, Total. 56.29 ms (0.1%)
-[Performance] AnimatorControllerTool.Repaint                              :        6 samples, Peak.  42.7 ms (4.6x), Avg.  9.21 ms, Total. 55.28 ms (0.1%)
-[Performance] AnimatorControllerTool.OnGUI.Layout                         :        6 samples, Peak.   461 us (3.0x), Avg.   154 us, Total. 923.1 us (0.0%)
-[Performance] AnimatorControllerTool.OnGUI.repaint                        :        6 samples, Peak.  57.0 us (1.1x), Avg.  49.6 us, Total. 297.6 us (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  1.12 ms (1.0x), Avg.  1.12 ms, Total. 1.123 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.   109 ms (1.0x), Avg.   109 ms, Total. 108.7 ms (0.1%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  47.0 ms (1.0x), Avg.  47.0 ms, Total. 47.02 ms (0.0%)
+[Performance] Gizmo.RebuildRenderers                                      :        3 samples, Peak.  42.3 ms (2.9x), Avg.  14.5 ms, Total. 43.37 ms (0.0%)
+[Performance] Gizmo.AddGizmoRenderers                                     :      282 samples, Peak.  2.07 ms (111.6x), Avg.  18.6 us, Total. 5.241 ms (0.0%)
+[Performance] Application.InitializeMenu                                  :        1 samples, Peak.   121 ms (1.0x), Avg.   121 ms, Total. 120.8 ms (0.1%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.   118 ms (1.0x), Avg.   118 ms, Total. 118.1 ms (0.1%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.   101 ms (1.0x), Avg.   101 ms, Total. 101.0 ms (0.1%)
+[Performance] Application.RestoreLastOpenedScenes                         :        1 samples, Peak.   231 ms (1.0x), Avg.   231 ms, Total. 231.0 ms (0.2%)
+[Performance] Inspector.InitOrRebuild                                     :        5 samples, Peak.  7.35 ms (4.2x), Avg.  1.76 ms, Total. 8.781 ms (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  7.51 ms (1.0x), Avg.  7.51 ms, Total. 7.511 ms (0.0%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  50.0 us (1.0x), Avg.  50.0 us, Total. 50.00 us (0.0%)
+[Performance] GenerateAssemblyTypeInfos                                   :        4 samples, Peak.   618 ms (1.0x), Avg.   607 ms, Total. 2.429 s (1.9%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        6 samples, Peak.   357 ms (5.1x), Avg.  70.2 ms, Total. 421.4 ms (0.3%)
+[Performance] Toolbar.Paint                                               :        4 samples, Peak.   138 ms (3.7x), Avg.  37.0 ms, Total. 147.8 ms (0.1%)
+[Performance] Toolbar.Repaint                                             :        4 samples, Peak.   137 ms (3.7x), Avg.  36.5 ms, Total. 146.1 ms (0.1%)
+[Performance] RefreshSkin                                                 :        1 samples, Peak.  29.1 ms (1.0x), Avg.  29.1 ms, Total. 29.13 ms (0.0%)
+[Performance] SceneHierarchyWindow.Paint                                  :        6 samples, Peak.  40.6 ms (4.6x), Avg.  8.77 ms, Total. 52.60 ms (0.0%)
+[Performance] SceneHierarchyWindow.Repaint                                :        6 samples, Peak.  40.5 ms (4.7x), Avg.  8.67 ms, Total. 52.05 ms (0.0%)
+[Performance] SceneHierarchyWindow.OnGUI.Layout                           :        6 samples, Peak.  21.7 ms (5.2x), Avg.  4.17 ms, Total. 25.04 ms (0.0%)
+[Performance] SceneHierarchyWindow.OnGUI.repaint                          :        6 samples, Peak.  3.56 ms (2.6x), Avg.  1.37 ms, Total. 8.235 ms (0.0%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                     :       12 samples, Peak.  2.30 us (1.4x), Avg.  1.59 us, Total. 19.10 us (0.0%)
+[Performance] SceneVisibilityState.HasData                                :       12 samples, Peak.   400 ns (2.7x), Avg.   150 ns, Total. 1.800 us (0.0%)
+[Performance] AppStatusBar.Paint                                          :        4 samples, Peak.  6.48 ms (3.2x), Avg.  2.00 ms, Total. 8.005 ms (0.0%)
+[Performance] AppStatusBar.Repaint                                        :        4 samples, Peak.  6.42 ms (3.4x), Avg.  1.89 ms, Total. 7.561 ms (0.0%)
+[Performance] SceneView.Paint                                             :        6 samples, Peak.  78.6 ms (5.2x), Avg.  15.0 ms, Total. 90.05 ms (0.1%)
+[Performance] SceneView.Repaint                                           :        6 samples, Peak.  78.5 ms (5.3x), Avg.  14.9 ms, Total. 89.45 ms (0.1%)
+[Performance] SceneView.OnGUI.Layout                                      :        6 samples, Peak.  56.3 ms (5.8x), Avg.  9.63 ms, Total. 57.77 ms (0.0%)
+[Performance] SceneView.OnGUI.repaint                                     :        6 samples, Peak.  18.7 ms (4.5x), Avg.  4.18 ms, Total. 25.07 ms (0.0%)
+[Performance] GizmoManager.DrawGizmos                                     :       12 samples, Peak.  8.84 ms (10.2x), Avg.   865 us, Total. 10.37 ms (0.0%)
+[Performance] GizmoManager.RecalculateGizmosIfDirty                       :        4 samples, Peak.  24.7 us (1.6x), Avg.  15.0 us, Total. 60.00 us (0.0%)
+[Performance] GizmoManager.RecalculateGizmos                              :        4 samples, Peak.  11.9 us (1.6x), Avg.  7.35 us, Total. 29.40 us (0.0%)
+[Performance] ConsoleWindow.Paint                                         :        4 samples, Peak.  11.9 ms (3.0x), Avg.  3.99 ms, Total. 15.96 ms (0.0%)
+[Performance] ConsoleWindow.Repaint                                       :        4 samples, Peak.  11.8 ms (3.1x), Avg.  3.81 ms, Total. 15.24 ms (0.0%)
+[Performance] ConsoleWindow.OnGUI.Layout                                  :        4 samples, Peak.  8.55 ms (3.8x), Avg.  2.25 ms, Total. 9.016 ms (0.0%)
+[Performance] ConsoleWindow.OnGUI.repaint                                 :        4 samples, Peak.   443 us (1.1x), Avg.   402 us, Total. 1.607 ms (0.0%)
+[Performance] AnimatorControllerTool.Paint                                :        6 samples, Peak.  47.4 ms (4.6x), Avg.  10.3 ms, Total. 61.60 ms (0.0%)
+[Performance] AnimatorControllerTool.Repaint                              :        6 samples, Peak.  47.3 ms (4.6x), Avg.  10.2 ms, Total. 61.18 ms (0.0%)
+[Performance] AnimatorControllerTool.OnGUI.Layout                         :        6 samples, Peak.   417 us (3.3x), Avg.   125 us, Total. 750.6 us (0.0%)
+[Performance] AnimatorControllerTool.OnGUI.repaint                        :        6 samples, Peak.   194 us (2.1x), Avg.  91.0 us, Total. 546.0 us (0.0%)
+[Performance] InspectorWindow.Paint                                       :        4 samples, Peak.  17.1 ms (3.6x), Avg.  4.77 ms, Total. 19.07 ms (0.0%)
+[Performance] InspectorWindow.Repaint                                     :        4 samples, Peak.  17.0 ms (3.7x), Avg.  4.64 ms, Total. 18.56 ms (0.0%)
+[Performance] InspectorWindow.OnGUI.Layout                                :        4 samples, Peak.  42.4 us (3.8x), Avg.  11.3 us, Total. 45.20 us (0.0%)
+[Performance] InspectorWindow.OnGUI.repaint                               :        4 samples, Peak.   600 ns (1.1x), Avg.   550 ns, Total. 2.200 us (0.0%)
+[Performance] GameView.Paint                                              :        6 samples, Peak.  14.7 ms (3.8x), Avg.  3.90 ms, Total. 23.42 ms (0.0%)
+[Performance] GameView.Repaint                                            :        6 samples, Peak.  14.7 ms (3.9x), Avg.  3.81 ms, Total. 22.84 ms (0.0%)
+[Performance] GameView.OnGUI.Layout                                       :        6 samples, Peak.  8.13 ms (4.8x), Avg.  1.70 ms, Total. 10.22 ms (0.0%)
+[Performance] GameView.OnGUI.repaint                                      :        6 samples, Peak.  5.33 ms (3.5x), Avg.  1.51 ms, Total. 9.065 ms (0.0%)
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 Exiting batchmode successfully now!
