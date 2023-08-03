@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <head>
   <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <style>.m_outer-table{width:100%;border-spacing:0;border-collapse:collapse}.m_outer-table>tbody>tr>td{text-align:-webkit-center;vertical-align:middle;padding:0}.m_inner-table{border-spacing:0;border-collapse:collapse;border-radius:30px;overflow:hidden}.m_inner-table>tbody>tr>td{text-align:center;vertical-align:middle;padding:0}.m_inner-table>tbody>.m_r-top,.m_inner-table>tbody>.m_r-bottom{background-color:black;height:40px;border-radius:20px}.m_inner-table>tbody>tr>.m_left,.m_inner-table>tbody>tr>.m_right{background-color:black;width:20px}</style>
+  <style>.m_outer-table{width:100%;height:100%;border-spacing:0;padding:0px;border-collapse:collapse;vertical-align: center}.m_outer-table>tbody>tr>td{text-align:-webkit-center;vertical-align:middle;padding:0}.m_inner-table{border-spacing:0;border-collapse:collapse;border-radius:15px;overflow:hidden}.m_inner-table>tbody>tr>td{text-align:center;vertical-align:middle;padding:0}.m_inner-table>tbody>.m_r-top,.m_inner-table>tbody>.m_r-bottom{background-color:black;height:15px;border-radius:15px}.m_inner-table>tbody>tr>.m_left,.m_inner-table>tbody>tr>.m_right{background-color:black;width:15px}</style>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Unity FlipChart</title>
+  <title>MindMix</title>
   <script src="./polyfills.js"></script>
 </head>
-<body>
-  <div>
+<body style="margin: 0.1%">
+  <div style="height: 100%; vertical-align: center">
       <table class="m_outer-table">
           <tbody>
               <tr>
@@ -24,7 +24,7 @@
                                   <td class="m_left"></td>
                                   <td class="m_middle" style="background: rgb(0,0,0)" id="unity-container">
 <!--                                        <canvas id="unity-canvas" style="z-index: 20; background: #231F20"></canvas>-->
-                                        <canvas id="unity-canvas" style="z-index: 20; width: calc(86vh*1080/1920); height: 86vh; background: #231F20"></canvas>
+                                        <canvas id="unity-canvas" style="z-index: 20; width: calc(92vh*1080/1920); height: 92vh; background: #231F20"></canvas>
 
                                         <script src="Build/prod-app.loader.js"></script>
                                         <script>
@@ -34,8 +34,8 @@
                                             codeUrl: "Build/prod-app.wasm",
                                             streamingAssetsUrl: "StreamingAssets",
                                             companyName: "DefaultCompany",
-                                            productName: "Unity FlipChart",
-                                            productVersion: "1.0",
+                                            productName: "MindMix",
+                                            productVersion: "1.3",
                                           })
                                           .then((instance) =>
                                           {
