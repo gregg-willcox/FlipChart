@@ -26,12 +26,12 @@
 <!--                                        <canvas id="unity-canvas" style="z-index: 20; background: #000000"></canvas>-->
                                         <canvas id="unity-canvas" style="z-index: 20; width: calc(92vh*1080/1920); height: 92vh; background: #000000"></canvas>
 
-                                        <script src="Build/prod-app.loader.js"></script>
+                                        <script src="Build/test-app.loader.js"></script>
                                         <script>
                                           createUnityInstance(document.querySelector("#unity-canvas"), {
-                                            dataUrl: "Build/prod-app.data",
-                                            frameworkUrl: "Build/prod-app.framework.js",
-                                            codeUrl: "Build/prod-app.wasm",
+                                            dataUrl: "Build/test-app.data",
+                                            frameworkUrl: "Build/test-app.framework.js",
+                                            codeUrl: "Build/test-app.wasm",
                                             streamingAssetsUrl: "StreamingAssets",
                                             companyName: "Unanimous AI",
                                             productName: "MindMix",
