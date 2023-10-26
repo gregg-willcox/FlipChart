@@ -1,19 +1,19 @@
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-willc" (connect: 0.00s, validation: 0.01s, handshake: 1.00s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-willc" (connect: 0.00s, validation: 0.01s, handshake: 0.94s)
 Entitlement-based licensing initiated
 [LicensingClient] Licenses updated successfully
 
-LICENSE SYSTEM [20231026 13:0:59] Next license update check is after 2023-10-27T20:00:59
+LICENSE SYSTEM [20231026 13:20:17] Next license update check is after 2023-10-27T20:20:18
 
 
-LICENSE SYSTEM [20231026 13:0:59] Machine binding 1 mismatch: (value of current machine) 00330-80000-00000-AA200 != 00325-81901-02894-AAOEM (value in license file). Reason might be there is a hardware change on this machine after the license was activated.
+LICENSE SYSTEM [20231026 13:20:17] Machine binding 1 mismatch: (value of current machine) 00330-80000-00000-AA200 != 00325-81901-02894-AAOEM (value in license file). Reason might be there is a hardware change on this machine after the license was activated.
 
 
-LICENSE SYSTEM [20231026 13:0:59] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+LICENSE SYSTEM [20231026 13:20:17] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16310 MB
 [Licensing::Module] Serial number assigned to: "F4-UQ8S-Y7XS-7Y92-939X-XXXX"
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
-[Package Manager] Server::Start -- Port 65292 was selected
+[Package Manager] Server::Start -- Port 50992 was selected
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
@@ -95,7 +95,7 @@ Registered 57 packages:
 Package Manager log level set to [2]
 [Package Manager] Done registering packages in 0.09s seconds
 Targeting platform: Win64
-Refreshing native plugins compatible for Editor in 89.66 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 90.15 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -120,50 +120,50 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.055107 seconds.
+Registered in 0.054323 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.07 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 75.37 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
+- Completed reload, in  0.621 seconds
 Domain Reload Profiling:
-	ReloadAssembly (665ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (229ms)
+			SetupLoadedEditorAssemblies (195ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.066761 seconds.
+Validating Project structure ... 0.042708 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.181961 seconds.
+Upgrading shader files ...0.053584 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 Registering precompiled user dll's ...
-Registered in 0.010045 seconds.
-AssetDatabase: script compilation time: 0.049829s
+Registered in 0.010172 seconds.
+AssetDatabase: script compilation time: 0.050108s
 Begin MonoManager ReloadAssembly
 Could not locate google-services.json or GoogleService-Info.plist files.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -198,7 +198,7 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.92 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -213,74 +213,74 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.830 seconds
+- Completed reload, in  1.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1831ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1576ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1639ms)
-			LoadAssemblies (106ms)
+		EndReloadAssembly (1385ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (613ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (350ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 8410.129ms
-	InvokeBeforeRefreshCallbacks: 0.307ms
-	ApplyChangesToAssetFolders: 0.055ms
-	Scan: 5341.598ms
+RefreshProfiler: Total: 3034.054ms
+	InvokeBeforeRefreshCallbacks: 0.298ms
+	ApplyChangesToAssetFolders: 0.056ms
+	Scan: 211.788ms
 	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 0.472ms
-	GetAllGuidsForCategorization: 0.491ms
-	CategorizeAssets: 68.313ms
-	ImportAndPostprocessOutOfDateAssets: 2979.039ms (2927.725ms without children)
-		CompileScripts: 50.373ms
+	InitializeImportedAssetsSnapshot: 0.497ms
+	GetAllGuidsForCategorization: 0.452ms
+	CategorizeAssets: 67.514ms
+	ImportAndPostprocessOutOfDateAssets: 2733.212ms (2681.192ms without children)
+		CompileScripts: 50.672ms
 		PostProcessAllAssets: 0.000ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.427ms
-		InitializingProgressBar: 0.068ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.355ms
-		RestoreLoadedAssetsState: 0.091ms
-	ReloadSourceAssets: 0.415ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.432ms
+		InitializingProgressBar: 0.477ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.359ms
+		RestoreLoadedAssetsState: 0.080ms
+	ReloadSourceAssets: 0.504ms
 	UnloadImportedAssets: 0.012ms
-	Hotreload: 0.517ms
-	FixTempGuids: 0.003ms
+	Hotreload: 0.587ms
+	FixTempGuids: 0.004ms
 	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
-	UnloadStreamsBegin: 0.783ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.021ms
-	GetLoadedSourceAssetsSnapshot: 0.207ms
-	PersistCurrentRevisions: 0.852ms
-	UnloadStreamsEnd: 12.487ms
-	GenerateScriptTypeHashes: 0.142ms
-	Untracked: 4.557ms
+	UnloadStreamsBegin: 0.812ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.023ms
+	GetLoadedSourceAssetsSnapshot: 0.186ms
+	PersistCurrentRevisions: 0.870ms
+	UnloadStreamsEnd: 12.854ms
+	GenerateScriptTypeHashes: 0.139ms
+	Untracked: 4.384ms
 Application.AssetDatabase Initial Script Refresh End
 Application.AssetDatabase.Refresh Start
-Refresh completed in 0.093721 seconds.
+Refresh completed in 0.088650 seconds.
 RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 93.704ms
+RefreshProfiler: Total: 88.634ms
 Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 4.514ms
-Refresh completed in 0.090825 seconds.
+RefreshProfiler: Total: 5.116ms
+Refresh completed in 0.088200 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 90.767ms
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+RefreshProfiler: Total: 88.163ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Initializing Unity extensions:
 CreateAssetMenu attribute on Question will be ignored as Question is not derived from ScriptableObject.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2802,19 +2802,19 @@ UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
 UnityEngine.Debug:LogWarningFormat (string,object[])
 UnityEditor.AttributeHelper:ExtractCreateAssetMenuItems (System.Reflection.Assembly)
 
-Unloading 434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 392 Unused Serialized files (Serialized files now loaded: 0)
 ProgressiveSceneManager::Cancel()
-Loaded scene 'Assets/Scenes/APP.unity'
-	Deserialize:            5024.790 ms
-	Integration:            1576.749 ms
-	Integration of assets:  30.550 ms
-	Thread Wait Time:       -4.036 ms
-	Total Operation Time:   6628.053 ms
-System memory in use before: 135.7 MB.
-System memory in use after: 135.2 MB.
+Loaded scene 'Assets/Scenes/Server.unity'
+	Deserialize:            2.007 ms
+	Integration:            28.967 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.039 ms
+	Total Operation Time:   31.016 ms
+System memory in use before: 117.6 MB.
+System memory in use after: 116.7 MB.
 
-Unloading 533 unused Assets to reduce memory usage. Loaded Objects now: 5174.
-Total: 9.612900 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.226500 ms MarkObjects: 8.400100 ms  DeleteObjects: 0.628600 ms)
+Unloading 533 unused Assets to reduce memory usage. Loaded Objects now: 4061.
+Total: 6.654000 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.199000 ms MarkObjects: 5.353400 ms  DeleteObjects: 0.828400 ms)
 
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -2850,260 +2850,260 @@ BuildPlayer: start building target 19
 - Starting compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.006831 seconds
-- Finished ILPostProcessorRunner in 0.128435 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 1.288792 seconds
-- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll
+- Starting compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Monetization.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll
 - Starting compile Library/PlayerScriptAssemblies/kcp2k.dll
-- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Monetization.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Components.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll
 - Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll
-- Starting compile Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
-- Starting compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll
-- Starting compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll
-- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Transports.dll
-- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll
 - Starting compile Library/PlayerScriptAssemblies/Mirror.Examples.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll
 - Starting compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
-- Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.002746 seconds
-- Finished ILPostProcessorRunner in 0.106672 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 4.530431 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.UI.dll in 0.002814 seconds
+- Finished ILPostProcessorRunner in 0.113151 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 4.094362 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.TestRunner.dll in 0.00308 seconds
+- Finished ILPostProcessorRunner in 0.158636 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 4.089117 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.002575 seconds
-- Finished ILPostProcessorRunner in 0.175804 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 3.591492 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTCore.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTCore.dll in 0.005491 seconds
-- Finished ILPostProcessorRunner in 0.146121 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll in 3.578258 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.InternalAPIEngineBridge.001.dll in 0.00258 seconds
+- Finished ILPostProcessorRunner in 0.106318 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll in 3.195007 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Purchasing.Common.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Purchasing.Common.dll in 0.002597 seconds
-- Finished ILPostProcessorRunner in 0.128883 seconds
-- Finished compile Library/PlayerScriptAssemblies/Purchasing.Common.dll in 3.607153 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Purchasing.Common.dll in 0.002681 seconds
+- Finished ILPostProcessorRunner in 0.094496 seconds
+- Finished compile Library/PlayerScriptAssemblies/Purchasing.Common.dll in 3.208735 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.002623 seconds
-- Finished ILPostProcessorRunner in 0.132089 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll in 3.593979 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.PixelPerfect.dll in 0.001678 seconds
+- Finished ILPostProcessorRunner in 0.092587 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll in 3.195523 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTCore.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTCore.dll in 0.002692 seconds
+- Finished ILPostProcessorRunner in 0.094173 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll in 3.191067 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Advertisements.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Advertisements.dll in 0.002827 seconds
-- Finished ILPostProcessorRunner in 0.193536 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll in 3.577485 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Advertisements.dll in 0.002224 seconds
+- Finished ILPostProcessorRunner in 0.098997 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll in 3.186262 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.SpatialTracking.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.SpatialTracking.dll in 0.003357 seconds
-- Finished ILPostProcessorRunner in 0.240846 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll in 3.5719 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.SpatialTracking.dll in 0.001985 seconds
+- Finished ILPostProcessorRunner in 0.09858 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll in 3.181495 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Analytics.DataPrivacy.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Analytics.DataPrivacy.dll in 0.003314 seconds
-- Finished ILPostProcessorRunner in 0.209098 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll in 3.563045 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Analytics.DataPrivacy.dll in 0.002247 seconds
+- Finished ILPostProcessorRunner in 0.093185 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll in 3.178223 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.002585 seconds
-- Finished ILPostProcessorRunner in 0.184261 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll in 3.554456 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.IK.Runtime.dll in 0.002317 seconds
+- Finished ILPostProcessorRunner in 0.094644 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll in 3.172353 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.002636 seconds
-- Finished ILPostProcessorRunner in 0.232339 seconds
-- Finished compile Library/PlayerScriptAssemblies/Telepathy.dll in 3.546542 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.002609 seconds
-- Finished ILPostProcessorRunner in 0.09037 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 3.523986 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityCore.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityCore.dll in 0.001673 seconds
-- Finished ILPostProcessorRunner in 0.088309 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll in 3.479801 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
-Find all reader and writers took 38 milliseconds
-Script Module: Mirror.dll
-Weave behaviours and messages took 80 milliseconds
-  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0040017
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 0.331098 seconds
-- Finished ILPostProcessorRunner in 0.441816 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.dll in 3.546469 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.001721 seconds
-- Finished ILPostProcessorRunner in 0.09374 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 3.523238 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTStub.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTStub.dll in 0.001626 seconds
-- Finished ILPostProcessorRunner in 0.072521 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll in 3.179055 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.dll in 0.001607 seconds
-- Finished ILPostProcessorRunner in 0.088214 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll in 3.515556 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleCore.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleCore.dll in 0.002665 seconds
-- Finished ILPostProcessorRunner in 0.121029 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll in 3.871316 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityStub.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityStub.dll in 0.002675 seconds
-- Finished ILPostProcessorRunner in 0.117739 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll in 3.815987 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
-Find all reader and writers took 41 milliseconds
-Script Module: kcp2k.dll
-Weave behaviours and messages took 18 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.211404 seconds
-- Finished ILPostProcessorRunner in 0.327316 seconds
-- Finished compile Library/PlayerScriptAssemblies/kcp2k.dll in 3.952535 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Monetization.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Monetization.dll in 0.002586 seconds
-- Finished ILPostProcessorRunner in 0.109931 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Monetization.dll in 3.529233 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll
-Find all reader and writers took 41 milliseconds
-Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took 20 milliseconds
-  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0020004
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.262595 seconds
-- Finished ILPostProcessorRunner in 0.372538 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll in 3.497622 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleStub.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleStub.dll in 0.00226 seconds
-- Finished ILPostProcessorRunner in 0.110002 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll in 3.439061 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll
-Find all reader and writers took 45 milliseconds
-Script Module: Mirror.Components.dll
-Weave behaviours and messages took 136 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0029995
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 0.393911 seconds
-- Finished ILPostProcessorRunner in 0.49619 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Components.dll in 5.12061 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleMacosStub.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleMacosStub.dll in 0.002604 seconds
-- Finished ILPostProcessorRunner in 0.107042 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll in 5.018525 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Telepathy.dll in 0.001634 seconds
+- Finished ILPostProcessorRunner in 0.080147 seconds
+- Finished compile Library/PlayerScriptAssemblies/Telepathy.dll in 3.163125 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.00166 seconds
-- Finished ILPostProcessorRunner in 0.099238 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll in 4.838528 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Common.Runtime.dll in 0.00238 seconds
+- Finished ILPostProcessorRunner in 0.085359 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll in 3.050061 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.XR.LegacyInputHelpers.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.XR.LegacyInputHelpers.dll in 0.002157 seconds
-- Finished ILPostProcessorRunner in 0.108849 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll in 4.89693 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Timeline.dll in 0.002639 seconds
+- Finished ILPostProcessorRunner in 0.084682 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 3.146423 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityCore.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityCore.dll in 0.001702 seconds
+- Finished ILPostProcessorRunner in 0.077427 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll in 3.106194 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll
+Find all reader and writers took 37 milliseconds
+Script Module: Mirror.dll
+Weave behaviours and messages took 76 milliseconds
+  ProcessSitesModule Mirror.dll elapsed time:00:00:00.0030006
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.dll in 0.297651 seconds
+- Finished ILPostProcessorRunner in 0.371852 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.dll in 3.17002 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.002181 seconds
-- Finished ILPostProcessorRunner in 0.104634 seconds
-- Finished compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll in 4.787859 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on SimpleWebTransport.dll in 0.001626 seconds
+- Finished ILPostProcessorRunner in 0.076839 seconds
+- Finished compile Library/PlayerScriptAssemblies/SimpleWebTransport.dll in 2.836869 seconds
+- Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Stores.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Stores.dll in 0.002664 seconds
-- Finished ILPostProcessorRunner in 0.095052 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll in 4.689707 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.TextMeshPro.dll in 0.002674 seconds
+- Finished ILPostProcessorRunner in 0.116856 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 4.583503 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTStub.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.WinRTStub.dll in 0.002759 seconds
+- Finished ILPostProcessorRunner in 0.113697 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll in 4.027089 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleCore.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleCore.dll in 0.00262 seconds
+- Finished ILPostProcessorRunner in 0.10826 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll in 4.075473 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.dll in 0.002614 seconds
+- Finished ILPostProcessorRunner in 0.126697 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll in 4.238813 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.XR.LegacyInputHelpers.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.XR.LegacyInputHelpers.dll in 0.002604 seconds
+- Finished ILPostProcessorRunner in 0.131341 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll in 3.988291 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Monetization.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Monetization.dll in 0.002637 seconds
+- Finished ILPostProcessorRunner in 0.114094 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Monetization.dll in 4.044221 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityStub.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.SecurityStub.dll in 0.001675 seconds
+- Finished ILPostProcessorRunner in 0.110362 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll in 3.958881 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll
+Find all reader and writers took 36 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took 18 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0010000
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Authenticators.dll in 0.243499 seconds
+- Finished ILPostProcessorRunner in 0.348912 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Authenticators.dll in 3.555092 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll
+Find all reader and writers took 35 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took 17 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on kcp2k.dll in 0.181102 seconds
+- Finished ILPostProcessorRunner in 0.289965 seconds
+- Finished compile Library/PlayerScriptAssemblies/kcp2k.dll in 3.594388 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll
+Find all reader and writers took 41 milliseconds
+Script Module: Mirror.Components.dll
+Weave behaviours and messages took 135 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0040004
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Components.dll in 0.375696 seconds
+- Finished ILPostProcessorRunner in 0.482589 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Components.dll in 3.537778 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleMacosStub.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleMacosStub.dll in 0.002082 seconds
+- Finished ILPostProcessorRunner in 0.1098 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll in 3.408194 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleStub.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.AppleStub.dll in 0.002621 seconds
+- Finished ILPostProcessorRunner in 0.111713 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll in 3.425424 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll
 Find all reader and writers took 37 milliseconds
 Script Module: Mirror.Transports.dll
-Weave behaviours and messages took 50 milliseconds
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.205131 seconds
-- Finished ILPostProcessorRunner in 0.294305 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Transports.dll in 4.493478 seconds
+Weave behaviours and messages took 39 milliseconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Transports.dll in 0.1899 seconds
+- Finished ILPostProcessorRunner in 0.283992 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Transports.dll in 3.231364 seconds
 - Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.002079 seconds
-- Finished ILPostProcessorRunner in 0.105401 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll in 6.521209 seconds
-- Starting ILPostProcessorRunner
-- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Codeless.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Codeless.dll in 0.002217 seconds
-- Finished ILPostProcessorRunner in 0.098776 seconds
-- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll in 4.326081 seconds
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Stores.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Stores.dll in 0.002135 seconds
+- Finished ILPostProcessorRunner in 0.099761 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll in 3.094576 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll
-Find all reader and writers took 61 milliseconds
+Find all reader and writers took 60 milliseconds
 Script Module: Mirror.Examples.dll
-Weave behaviours and messages took 264 milliseconds
-  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0029992
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 0.522967 seconds
-- Finished ILPostProcessorRunner in 0.613341 seconds
-- Finished compile Library/PlayerScriptAssemblies/Mirror.Examples.dll in 4.192603 seconds
+Weave behaviours and messages took 253 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0040007
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Mirror.Examples.dll in 0.512559 seconds
+- Finished ILPostProcessorRunner in 0.601719 seconds
+- Finished compile Library/PlayerScriptAssemblies/Mirror.Examples.dll in 2.897194 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Codeless.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on UnityEngine.Purchasing.Codeless.dll in 0.001637 seconds
+- Finished ILPostProcessorRunner in 0.098277 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll in 2.714014 seconds
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.Mathematics.dll in 0.001623 seconds
+- Finished ILPostProcessorRunner in 0.07377 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Mathematics.dll in 6.94105 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.001842 seconds
-- Finished ILPostProcessorRunner in 0.078182 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll in 4.103573 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.Animation.Runtime.dll in 0.002513 seconds
+- Finished ILPostProcessorRunner in 0.074727 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll in 4.589229 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.001684 seconds
-- Finished ILPostProcessorRunner in 0.071572 seconds
-- Finished compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 4.086544 seconds
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Unity.2D.SpriteShape.Runtime.dll in 0.001579 seconds
+- Finished ILPostProcessorRunner in 0.069648 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll in 4.285803 seconds
 - Starting ILPostProcessorRunner
 - Starting ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll
-Find all reader and writers took 91 milliseconds
+Find all reader and writers took 85 milliseconds
 Script Module: Assembly-CSharp.dll
-Weave behaviours and messages took 794 milliseconds
-  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0268871
-- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 1.146044 seconds
-- Finished ILPostProcessorRunner in 1.50343 seconds
-- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 3.652513 seconds
-- Finished script compilation in 7.648976 seconds
+Weave behaviours and messages took 773 milliseconds
+  ProcessSitesModule Assembly-CSharp.dll elapsed time:00:00:00.0240307
+- Finished ILPostProcessor 'Mirror.Weaver.ILPostProcessorHook' on Assembly-CSharp.dll in 1.113349 seconds
+- Finished ILPostProcessorRunner in 1.194474 seconds
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 3.821744 seconds
+- Finished script compilation in 8.018628 seconds
 Assets\Scripts\ListElement.cs(47,19): warning CS0108: 'ListElement.name' hides inherited member 'Object.name'. Use the new keyword if hiding was intended.
 Assets\Scripts\DatabaseAccessor.cs(273,46): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
-Assets\GameStateInterface.cs(59,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(106,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(143,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+Assets\GameStateInterface.cs(59,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(193,23): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(500,16): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
 Assets\Scripts\FlipChartController.cs(538,13): warning CS0162: Unreachable code detected
 Assets\Mirror\Core\LagCompensation\MinMaxBounds.cs(12,19): warning CS0659: 'MinMaxBounds' overrides Object.Equals(object o) but does not override Object.GetHashCode()
 Assets\Mirror\Core\LagCompensation\MinMaxBounds.cs(12,19): warning CS0661: 'MinMaxBounds' defines operator == or operator != but does not override Object.GetHashCode()
 BuildPlayerGenerator: Succeeded
-Refresh completed in 0.084356 seconds.
+Refresh completed in 0.083368 seconds.
 RefreshInfo: RefreshV2() scanfilter: 
-RefreshProfiler: Total: 84.288ms
-Opening scene 'Assets/Scenes/Server.unity'
+RefreshProfiler: Total: 83.267ms
+Opening scene 'Temp/__Backupscenes/0.backup'
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/Server.unity'
-	Deserialize:            17.974 ms
-	Integration:            5.754 ms
-	Integration of assets:  0.013 ms
-	Thread Wait Time:       0.026 ms
-	Total Operation Time:   23.767 ms
-System memory in use before: 139.4 MB.
-System memory in use after: 136.9 MB.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.724 ms
+	Integration:            6.334 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.051 ms
+	Total Operation Time:   7.110 ms
+System memory in use before: 128.0 MB.
+System memory in use after: 125.5 MB.
 
-Unloading 376 unused Assets to reduce memory usage. Loaded Objects now: 4277.
-Total: 12.036900 ms (FindLiveObjects: 0.352800 ms CreateObjectMapping: 0.259100 ms MarkObjects: 10.742500 ms  DeleteObjects: 0.681700 ms)
+Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 4261.
+Total: 11.668100 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.221700 ms MarkObjects: 10.615700 ms  DeleteObjects: 0.551500 ms)
 
 
 
@@ -3175,85 +3175,85 @@ Dependency assembly - Purchasing.Common.dll
 Dependency assembly - Unity.TextMeshPro.dll
 Dependency assembly - Unity.2D.Animation.Runtime.dll
 
-Unloading 173 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.0 MB.
-System memory in use after: 146.6 MB.
+Unloading 180 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 146.1 MB.
 
-Unloading 978 unused Assets to reduce memory usage. Loaded Objects now: 4239.
-Total: 12.156300 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.149000 ms MarkObjects: 11.007000 ms  DeleteObjects: 0.818600 ms)
+Unloading 996 unused Assets to reduce memory usage. Loaded Objects now: 4221.
+Total: 11.876700 ms (FindLiveObjects: 0.209700 ms CreateObjectMapping: 0.152000 ms MarkObjects: 10.687300 ms  DeleteObjects: 0.826900 ms)
 
 [EnlightenBakeManager] m_Clear = false;
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 6900 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-  Thread -> id: a81c -> priority: 1 
-System memory in use before: 146.7 MB.
-  Thread -> id: bb38 -> priority: 1 
-  Thread -> id: 4264 -> priority: 1 
-  Thread -> id: 8ba0 -> priority: 1 
-  Thread -> id: 7ee8 -> priority: 1 
-  Thread -> id: a54c -> priority: 1 
-  Thread -> id: 21c0 -> priority: 1 
-System memory in use after: 146.8 MB.
+  Thread -> id: 3f00 -> priority: 1 
+System memory in use before: 163.6 MB.
+  Thread -> id: 276c -> priority: 1 
+  Thread -> id: 2548 -> priority: 1 
+  Thread -> id: 60c8 -> priority: 1 
+  Thread -> id: 3344 -> priority: 1 
+  Thread -> id: 1418 -> priority: 1 
+  Thread -> id: a47c -> priority: 1 
+  Thread -> id: b440 -> priority: 1 
+System memory in use after: 145.1 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4884.
-Total: 12.467500 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.222600 ms MarkObjects: 11.830400 ms  DeleteObjects: 0.053500 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4882.
+Total: 15.893800 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.225500 ms MarkObjects: 11.613700 ms  DeleteObjects: 3.721200 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 286.8 MB.
-System memory in use after: 146.8 MB.
+System memory in use before: 285.0 MB.
+System memory in use after: 145.0 MB.
 
-Unloading 154 unused Assets to reduce memory usage. Loaded Objects now: 4871.
-Total: 30.102400 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.134600 ms MarkObjects: 12.146100 ms  DeleteObjects: 17.612500 ms)
+Unloading 154 unused Assets to reduce memory usage. Loaded Objects now: 4869.
+Total: 29.552100 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.132800 ms MarkObjects: 11.803100 ms  DeleteObjects: 17.430300 ms)
 
 Compiling shader "Standard" pass "FORWARD" (vp)
     8 / 8 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.17 seconds. Local cache hits 8 (0.96s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.11 seconds. Local cache hits 8 (0.63s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 4 (0.13s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 4 (0.10s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD_DELTA" (vp)
     13 / 13 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.22 seconds. Local cache hits 13 (1.56s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.15 seconds. Local cache hits 13 (0.97s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD_DELTA" (fp)
     13 / 13 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.17 seconds. Local cache hits 13 (1.38s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.09 seconds. Local cache hits 13 (0.81s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "ShadowCaster" (vp)
+    2 / 2 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Standard" pass "ShadowCaster" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
     finished in 0.00 seconds. Local cache hits 2 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Standard" pass "ShadowCaster" (fp)
-    2 / 2 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "DEFERRED" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.06 seconds. Local cache hits 4 (0.12s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 4 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "DEFERRED" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 4 (0.17s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 4 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD" (vp)
     8 / 8 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.11 seconds. Local cache hits 8 (0.51s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.04 seconds. Local cache hits 8 (0.19s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.04 seconds. Local cache hits 4 (0.10s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.05s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD_DELTA" (vp)
     10 / 10 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.14 seconds. Local cache hits 10 (0.73s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.08 seconds. Local cache hits 10 (0.44s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "FORWARD_DELTA" (fp)
     10 / 10 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.08 seconds. Local cache hits 10 (0.45s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.06 seconds. Local cache hits 10 (0.26s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Standard" pass "ShadowCaster" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3261,17 +3261,17 @@ Compiling shader "Standard" pass "ShadowCaster" (vp)
 Compiling shader "Standard" pass "ShadowCaster" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 2 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Standard in 0.00s
     d3d11 (total internal programs: 86, unique: 78)
 Compiling shader "Legacy Shaders/Particles/Alpha Blended Premultiply" pass "Pass 0" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 2 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Particles/Alpha Blended Premultiply" pass "Pass 0" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 2 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Legacy Shaders/Particles/Alpha Blended Premultiply in 0.00s
     d3d11 (total internal programs: 4, unique: 4)
 Compiling shader "Unlit/Texture" pass "Pass 0" (vp)
@@ -3287,17 +3287,17 @@ Serialized binary data for shader Unlit/Texture in 0.00s
 Compiling shader "UI Extensions/Particles/Alpha Blended Premultiply" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.05s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/Alpha Blended Premultiply" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.04 seconds. Local cache hits 4 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 4 (0.05s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Alpha Blended Premultiply in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/Particles/Multiply (Double)" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 4 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/Multiply (Double)" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3307,11 +3307,11 @@ Serialized binary data for shader UI Extensions/Particles/Multiply (Double) in 0
 Compiling shader "UI Extensions/Particles/~Additive-Multiply" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 4 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 4 (0.05s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/~Additive-Multiply" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 4 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/~Additive-Multiply in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/UIAdditive" pass "Pass 0" (vp)
@@ -3341,17 +3341,17 @@ Compiling shader "UI Extensions/Particles/Multiply" pass "Pass 0" (vp)
 Compiling shader "UI Extensions/Particles/Multiply" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 4 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Multiply in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/Particles/Additive (Soft)" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/Additive (Soft)" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 4 (0.07s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Additive (Soft) in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "Vuplex/Default Web Shader" pass "Pass 0" (vp)
@@ -3361,13 +3361,13 @@ Compiling shader "Vuplex/Default Web Shader" pass "Pass 0" (vp)
 Compiling shader "Vuplex/Default Web Shader" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Vuplex/Default Web Shader in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/Particles/VertexLit Blended" pass "Pass 0" (vp)
     3 / 3 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 3 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 3 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/VertexLit Blended" pass "Pass 0" (fp)
     3 / 3 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3377,11 +3377,11 @@ Serialized binary data for shader UI Extensions/Particles/VertexLit Blended in 0
 Compiling shader "TextMeshPro/Distance Field" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "TextMeshPro/Distance Field" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader TextMeshPro/Distance Field in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Serialized binary data for shader Vuplex/Android Web Shader in 0.00s
@@ -3403,7 +3403,7 @@ Compiling shader "UI Extensions/Particles/Blend" pass "Pass 0" (vp)
 Compiling shader "UI Extensions/Particles/Blend" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Blend in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/UILinearDodge" pass "Pass 0" (vp)
@@ -3419,11 +3419,11 @@ Serialized binary data for shader UI Extensions/UILinearDodge in 0.00s
 Compiling shader "UI Extensions/Particles/Alpha Blended" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.03 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/Alpha Blended" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.04 seconds. Local cache hits 4 (0.09s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Alpha Blended in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/UI Image Crop" pass "Pass 0" (vp)
@@ -3449,7 +3449,7 @@ Serialized binary data for shader UI/Particles/Hidden in 0.00s
 Compiling shader "TextMeshPro/Sprite" pass "Default" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.05 seconds. Local cache hits 4 (0.12s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "TextMeshPro/Sprite" pass "Default" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3469,11 +3469,11 @@ Serialized binary data for shader UI Extensions/UIMultiply in 0.00s
 Compiling shader "UI Extensions/Particles/Additive" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.04 seconds. Local cache hits 4 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI Extensions/Particles/Additive" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI Extensions/Particles/Additive in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI Extensions/UISoftAdditive" pass "Pass 0" (vp)
@@ -3489,21 +3489,21 @@ Serialized binary data for shader UI Extensions/UISoftAdditive in 0.00s
 Compiling shader "TextMeshPro/Mobile/Distance Field" pass "Pass 0" (vp)
     12 / 12 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 12 (0.38s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.05 seconds. Local cache hits 12 (0.32s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "TextMeshPro/Mobile/Distance Field" pass "Pass 0" (fp)
     12 / 12 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.11 seconds. Local cache hits 12 (0.82s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.05 seconds. Local cache hits 12 (0.33s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader TextMeshPro/Mobile/Distance Field in 0.00s
     d3d11 (total internal programs: 24, unique: 24)
 Compiling shader "Legacy Shaders/VertexLit" pass "Pass 0" (vp)
     3 / 3 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.08 seconds. Local cache hits 3 (0.14s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.04 seconds. Local cache hits 3 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/VertexLit" pass "Pass 0" (fp)
     3 / 3 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 3 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 3 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/VertexLit" pass "Pass 1" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3525,7 +3525,7 @@ Serialized binary data for shader Legacy Shaders/VertexLit in 0.00s
 Compiling shader "Legacy Shaders/Diffuse" pass "FORWARD" (vp)
     8 / 8 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 8 (0.21s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.06 seconds. Local cache hits 8 (0.27s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Diffuse" pass "FORWARD" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3533,11 +3533,11 @@ Compiling shader "Legacy Shaders/Diffuse" pass "FORWARD" (fp)
 Compiling shader "Legacy Shaders/Diffuse" pass "FORWARD" (vp)
     5 / 5 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.06 seconds. Local cache hits 5 (0.15s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.04 seconds. Local cache hits 5 (0.10s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Diffuse" pass "FORWARD" (fp)
     5 / 5 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 5 (0.16s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.05 seconds. Local cache hits 5 (0.15s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Diffuse" pass "PREPASS" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3545,11 +3545,11 @@ Compiling shader "Legacy Shaders/Diffuse" pass "PREPASS" (vp)
 Compiling shader "Legacy Shaders/Diffuse" pass "PREPASS" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Diffuse" pass "PREPASS" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 4 (0.12s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.04 seconds. Local cache hits 4 (0.09s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Diffuse" pass "PREPASS" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3557,7 +3557,7 @@ Compiling shader "Legacy Shaders/Diffuse" pass "PREPASS" (fp)
 Compiling shader "Legacy Shaders/Diffuse" pass "DEFERRED" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.04 seconds. Local cache hits 4 (0.10s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.05 seconds. Local cache hits 4 (0.11s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Legacy Shaders/Diffuse" pass "DEFERRED" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3593,7 +3593,7 @@ Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
 Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3629,67 +3629,51 @@ Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 1" (vp)
 Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 1" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 1 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
-    1 / 1 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
-    1 / 1 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
-    1 / 1 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
-    1 / 1 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
-    1 / 1 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
     finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
+    1 / 1 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
     finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
+    1 / 1 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
+    1 / 1 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (vp)
+    1 / 1 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-DepthNormalsTexture" pass "Pass 0" (fp)
+    1 / 1 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/Internal-DepthNormalsTexture in 0.00s
     d3d11 (total internal programs: 20, unique: 17)
 Compiling shader "Hidden/Internal-PrePassLighting" pass "Pass 0" (vp)
     13 / 13 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.06 seconds. Local cache hits 13 (0.46s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.04 seconds. Local cache hits 13 (0.40s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-PrePassLighting" pass "Pass 0" (fp)
     13 / 13 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.06 seconds. Local cache hits 13 (0.41s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.07 seconds. Local cache hits 13 (0.43s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-PrePassLighting" pass "Pass 1" (vp)
     13 / 13 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.07 seconds. Local cache hits 13 (0.42s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 13 (0.26s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-PrePassLighting" pass "Pass 1" (fp)
     13 / 13 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.12 seconds. Local cache hits 13 (1.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.10 seconds. Local cache hits 13 (0.79s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/Internal-PrePassLighting in 0.00s
     d3d11 (total internal programs: 52, unique: 39)
-Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
-    4 / 4 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.05s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (fp)
-    4 / 4 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
-    4 / 4 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
-Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (fp)
-    4 / 4 variants left after stripping, processed in 0.00 seconds
-    starting compilation...
-    finished in 0.03 seconds. Local cache hits 4 (0.07s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3697,15 +3681,31 @@ Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
 Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.04 seconds. Local cache hits 4 (0.13s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
+    4 / 4 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.03 seconds. Local cache hits 4 (0.08s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (fp)
+    4 / 4 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.01 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (vp)
+    4 / 4 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+Compiling shader "Hidden/Internal-ScreenSpaceShadows" pass "Pass 0" (fp)
+    4 / 4 variants left after stripping, processed in 0.00 seconds
+    starting compilation...
+    finished in 0.02 seconds. Local cache hits 4 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/Internal-ScreenSpaceShadows in 0.00s
     d3d11 (total internal programs: 32, unique: 20)
 Compiling shader "Hidden/Internal-CombineDepthNormals" pass "Pass 0" (vp)
@@ -3715,7 +3715,7 @@ Compiling shader "Hidden/Internal-CombineDepthNormals" pass "Pass 0" (vp)
 Compiling shader "Hidden/Internal-CombineDepthNormals" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/Internal-CombineDepthNormals in 0.00s
     d3d11 (total internal programs: 2, unique: 2)
 Compiling shader "Hidden/BlitCopy" pass "Pass 0" (vp)
@@ -3735,7 +3735,7 @@ Compiling shader "Hidden/BlitCopyDepth" pass "Pass 0" (vp)
 Compiling shader "Hidden/BlitCopyDepth" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/BlitCopyDepth in 0.00s
     d3d11 (total internal programs: 2, unique: 2)
 Compiling shader "Hidden/ConvertTexture" pass "Pass 0" (vp)
@@ -3751,15 +3751,15 @@ Serialized binary data for shader Hidden/ConvertTexture in 0.00s
 Compiling shader "Hidden/Internal-DeferredShading" pass "Pass 0" (vp)
     26 / 26 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.08 seconds. Local cache hits 26 (1.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.12 seconds. Local cache hits 26 (1.52s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DeferredShading" pass "Pass 0" (fp)
     26 / 26 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.24 seconds. Local cache hits 26 (2.76s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.22 seconds. Local cache hits 26 (2.52s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DeferredShading" pass "Pass 1" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DeferredShading" pass "Pass 1" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3773,11 +3773,11 @@ Compiling shader "Hidden/Internal-DeferredReflections" pass "Pass 0" (vp)
 Compiling shader "Hidden/Internal-DeferredReflections" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DeferredReflections" pass "Pass 1" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 2 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-DeferredReflections" pass "Pass 1" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3787,7 +3787,7 @@ Serialized binary data for shader Hidden/Internal-DeferredReflections in 0.00s
 Compiling shader "Hidden/Internal-MotionVectors" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.05 seconds. Local cache hits 1 (0.05s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-MotionVectors" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3813,7 +3813,7 @@ Serialized binary data for shader Hidden/Internal-MotionVectors in 0.00s
 Compiling shader "Hidden/Internal-Flare" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-Flare" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -3827,7 +3827,7 @@ Compiling shader "Hidden/Internal-Halo" pass "Pass 0" (vp)
 Compiling shader "Hidden/Internal-Halo" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/Internal-Halo in 0.00s
     d3d11 (total internal programs: 2, unique: 2)
 Compiling shader "Hidden/BlitCopyWithDepth" pass "Pass 0" (vp)
@@ -4031,27 +4031,27 @@ Compiling shader "Sprites/Default" pass "Pass 0" (vp)
 Compiling shader "Sprites/Default" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Sprites/Default in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "Sprites/Mask" pass "Pass 0" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 4 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Sprites/Mask" pass "Pass 0" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 4 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.03 seconds. Local cache hits 4 (0.06s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Sprites/Mask in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI/Default" pass "Default" (vp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 4 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "UI/Default" pass "Default" (fp)
     4 / 4 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 4 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader UI/Default in 0.00s
     d3d11 (total internal programs: 8, unique: 8)
 Compiling shader "UI/DefaultETC1" pass "Default" (vp)
@@ -4067,7 +4067,7 @@ Serialized binary data for shader UI/DefaultETC1 in 0.00s
 Compiling shader "Hidden/CubeBlur" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 1 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/CubeBlur" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4075,7 +4075,7 @@ Compiling shader "Hidden/CubeBlur" pass "Pass 0" (fp)
 Compiling shader "Hidden/CubeBlur" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 1 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/CubeBlur" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4115,7 +4115,7 @@ Compiling shader "Hidden/CubeBlend" pass "Pass 0" (vp)
 Compiling shader "Hidden/CubeBlend" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 1 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/CubeBlend in 0.00s
     d3d11 (total internal programs: 4, unique: 2)
 Compiling shader "Hidden/VR/BlitTexArraySlice" pass "Pass 0" (vp)
@@ -4203,7 +4203,7 @@ Compiling shader "Hidden/Internal-ODSWorldTexture" pass "Pass 0" (fp)
 Compiling shader "Hidden/Internal-ODSWorldTexture" pass "Pass 0" (vp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 1 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/Internal-ODSWorldTexture" pass "Pass 0" (fp)
     1 / 1 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4255,7 +4255,7 @@ Serialized binary data for shader Hidden/VideoComposite in 0.00s
 Compiling shader "Hidden/VideoDecode" pass "YCbCr_To_RGB1" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.02 seconds. Local cache hits 2 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "YCbCr_To_RGB1" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4263,15 +4263,15 @@ Compiling shader "Hidden/VideoDecode" pass "YCbCr_To_RGB1" (fp)
 Compiling shader "Hidden/VideoDecode" pass "YCbCrA_To_RGBAFull" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "YCbCrA_To_RGBAFull" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "YCbCrA_To_RGBA" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "YCbCrA_To_RGBA" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4279,7 +4279,7 @@ Compiling shader "Hidden/VideoDecode" pass "YCbCrA_To_RGBA" (fp)
 Compiling shader "Hidden/VideoDecode" pass "Flip_RGBA_To_RGBA" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.00 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "Flip_RGBA_To_RGBA" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4287,7 +4287,7 @@ Compiling shader "Hidden/VideoDecode" pass "Flip_RGBA_To_RGBA" (fp)
 Compiling shader "Hidden/VideoDecode" pass "Flip_RGBASplit_To_RGBA" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "Flip_RGBASplit_To_RGBA" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4295,15 +4295,15 @@ Compiling shader "Hidden/VideoDecode" pass "Flip_RGBASplit_To_RGBA" (fp)
 Compiling shader "Hidden/VideoDecode" pass "Flip_NV12_To_RGB1" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.01 seconds. Local cache hits 2 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "Flip_NV12_To_RGB1" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.00 seconds. Local cache hits 2 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 2 (0.02s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "Flip_NV12_To_RGBA" (vp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
-    finished in 0.01 seconds. Local cache hits 2 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
+    finished in 0.02 seconds. Local cache hits 2 (0.03s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Compiling shader "Hidden/VideoDecode" pass "Flip_NV12_To_RGBA" (fp)
     2 / 2 variants left after stripping, processed in 0.00 seconds
     starting compilation...
@@ -4328,7 +4328,7 @@ Compiling shader "Hidden/TextCore/Distance Field SSD" pass "Pass 0" (fp)
     finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants
 Serialized binary data for shader Hidden/TextCore/Distance Field SSD in 0.00s
     d3d11 (total internal programs: 2, unique: 2)
-Refreshing native plugins compatible for Editor in 1.25 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 
 -------------------------------------------------------------------------------
@@ -5874,103 +5874,103 @@ Used Assets and files from the Resources folder, sorted by uncompressed size:
  0.1 kb	 0.0% Assets/Mirror/Core/Empty/Cloud/Ball.cs
  0.1 kb	 0.0% Assets/Resources/BillingMode.json
 -------------------------------------------------------------------------------
-Unloading 245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.2 MB.
-System memory in use after: 164.8 MB.
+Unloading 254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.4 MB.
+System memory in use after: 163.7 MB.
 
-Unloading 1045 unused Assets to reduce memory usage. Loaded Objects now: 4894.
-Total: 14.031700 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.223300 ms MarkObjects: 12.569900 ms  DeleteObjects: 0.859700 ms)
+Unloading 1061 unused Assets to reduce memory usage. Loaded Objects now: 4892.
+Total: 13.439400 ms (FindLiveObjects: 0.356400 ms CreateObjectMapping: 0.236200 ms MarkObjects: 11.918300 ms  DeleteObjects: 0.927700 ms)
 
 DisplayProgressNotification: Build Successful
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            46.701 ms
-	Integration:            22.428 ms
-	Integration of assets:  5.232 ms
-	Thread Wait Time:       0.044 ms
-	Total Operation Time:   74.406 ms
-System memory in use before: 166.1 MB.
-System memory in use after: 166.6 MB.
+	Deserialize:            1.132 ms
+	Integration:            6.508 ms
+	Integration of assets:  49.840 ms
+	Thread Wait Time:       0.070 ms
+	Total Operation Time:   57.550 ms
+System memory in use before: 154.9 MB.
+System memory in use after: 155.2 MB.
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 5914.
-Total: 14.845800 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.255400 ms MarkObjects: 14.163600 ms  DeleteObjects: 0.009400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 4920.
+Total: 12.422800 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.212400 ms MarkObjects: 11.836100 ms  DeleteObjects: 0.011300 ms)
 
 Build successful - Build written to ../Online Builds/test-server/server.exe
 Batchmode quit successfully invoked - shutting down!
-[Performance] WinEditorMain                                               :        1 samples, Peak.  2.72 s (1.0x), Avg.  2.72 s, Total. 2.722 s (4.6%)
-[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  26.9 us (1.0x), Avg.  26.9 us, Total. 26.90 us (0.0%)
-[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  1.77 ms (1.0x), Avg.  1.77 ms, Total. 1.773 ms (0.0%)
-[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.  2.25 ms (1.0x), Avg.  2.25 ms, Total. 2.247 ms (0.0%)
+[Performance] WinEditorMain                                               :        1 samples, Peak.  2.59 s (1.0x), Avg.  2.59 s, Total. 2.594 s (7.5%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  21.7 us (1.0x), Avg.  21.7 us, Total. 21.70 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  1.45 ms (1.0x), Avg.  1.45 ms, Total. 1.448 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.  1.52 ms (1.0x), Avg.  1.52 ms, Total. 1.524 ms (0.0%)
 [Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.   100 ns (1.0x), Avg.   100 ns, Total. 100.0 ns (0.0%)
-[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  2.66 s (1.0x), Avg.  2.66 s, Total. 2.665 s (4.6%)
-[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  27.8 ms (1.0x), Avg.  27.8 ms, Total. 27.79 ms (0.0%)
-[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   232 us (1.0x), Avg.   232 us, Total. 231.6 us (0.0%)
-[Performance] Application.InitializeProject                               :        1 samples, Peak.  15.0 s (1.0x), Avg.  15.0 s, Total. 15.03 s (25.7%)
-[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  4.77 ms (1.0x), Avg.  4.77 ms, Total. 4.774 ms (0.0%)
-[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  5.60 ms (1.0x), Avg.  5.60 ms, Total. 5.604 ms (0.0%)
-[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  27.2 ms (1.0x), Avg.  27.2 ms, Total. 27.22 ms (0.0%)
-[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.   731 ms (1.0x), Avg.   731 ms, Total. 731.0 ms (1.2%)
-[Performance] CurlRequestCheck                                            :       14 samples, Peak.  1.16 ms (12.2x), Avg.  95.5 us, Total. 1.338 ms (0.0%)
-[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  14.0 us (1.0x), Avg.  14.0 us, Total. 14.00 us (0.0%)
-[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.  1.57 s (1.0x), Avg.  1.57 s, Total. 1.574 s (2.7%)
-[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  3.36 ms (1.0x), Avg.  3.36 ms, Total. 3.362 ms (0.0%)
-[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.57 ms (1.0x), Avg.  1.57 ms, Total. 1.565 ms (0.0%)
-[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.   742 ms (1.0x), Avg.   742 ms, Total. 741.6 ms (1.3%)
-[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  65.6 ms (2.0x), Avg.  32.8 ms, Total. 65.64 ms (0.1%)
-[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   357 us (1.2x), Avg.   293 us, Total. 585.3 us (0.0%)
-[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  27.6 ms (1.0x), Avg.  27.6 ms, Total. 27.61 ms (0.0%)
-[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  8.41 s (1.0x), Avg.  8.41 s, Total. 8.413 s (14.4%)
-[Performance] Compiling Scripts                                           :        1 samples, Peak.  50.3 ms (1.0x), Avg.  50.3 ms, Total. 50.33 ms (0.1%)
-[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  93.9 ms (1.0x), Avg.  93.9 ms, Total. 93.87 ms (0.2%)
-[Performance] AssetDatabase.Refresh                                       :        1 samples, Peak.  93.8 ms (1.0x), Avg.  93.8 ms, Total. 93.82 ms (0.2%)
-[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   111 ms (1.0x), Avg.   111 ms, Total. 110.9 ms (0.2%)
-[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   263 ms (1.0x), Avg.   263 ms, Total. 263.3 ms (0.4%)
-[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  5.31 ms (1.0x), Avg.  5.31 ms, Total. 5.306 ms (0.0%)
-[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
-[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  1.37 ms (1.0x), Avg.  1.37 ms, Total. 1.375 ms (0.0%)
-[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.   159 ms (1.0x), Avg.   159 ms, Total. 159.3 ms (0.3%)
-[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  56.4 ms (1.0x), Avg.  56.4 ms, Total. 56.45 ms (0.1%)
-[Performance] Gizmo.RebuildRenderers                                      :        2 samples, Peak.  51.1 ms (2.0x), Avg.  25.9 ms, Total. 51.78 ms (0.1%)
-[Performance] Gizmo.AddGizmoRenderers                                     :      230 samples, Peak.  1.69 ms (97.6x), Avg.  17.3 us, Total. 3.990 ms (0.0%)
-[Performance] Application.InitializeMenu                                  :        1 samples, Peak.   149 ms (1.0x), Avg.   149 ms, Total. 149.4 ms (0.3%)
-[Performance] UpdateAllMenus                                              :        1 samples, Peak.   145 ms (1.0x), Avg.   145 ms, Total. 145.1 ms (0.2%)
-[Performance] Application.editorInitializingProject                       :        1 samples, Peak.   138 ms (1.0x), Avg.   138 ms, Total. 138.1 ms (0.2%)
-[Performance] Application.RestoreLastOpenedScenes                         :        1 samples, Peak.  6.64 s (1.0x), Avg.  6.64 s, Total. 6.640 s (11.3%)
-[Performance] Inspector.InitOrRebuild                                     :        3 samples, Peak.  5.63 ms (2.0x), Avg.  2.83 ms, Total. 8.489 ms (0.0%)
-[Performance] BuildCatalog                                                :        1 samples, Peak.  47.9 ms (1.0x), Avg.  47.9 ms, Total. 47.90 ms (0.1%)
-[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  7.33 ms (1.0x), Avg.  7.33 ms, Total. 7.328 ms (0.0%)
-[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  48.3 us (1.0x), Avg.  48.3 us, Total. 48.30 us (0.0%)
-[Performance] AssetDatabase.ImportAssets                                  :        2 samples, Peak.   800 ns (2.0x), Avg.   400 ns, Total. 800.0 ns (0.0%)
-[Performance] GenerateAssemblyTypeInfos                                   :        2 samples, Peak.   886 ms (1.0x), Avg.   854 ms, Total. 1.707 s (2.9%)
-[Performance] Package.AsyncRequest                                        :        1 samples, Peak.   712 us (1.0x), Avg.   712 us, Total. 712.4 us (0.0%)
-[Performance] GUIView.RepaintAll.PlayerLoopController                     :        3 samples, Peak.   500 ms (2.9x), Avg.   173 ms, Total. 518.7 ms (0.9%)
-[Performance] GameView.Paint                                              :        3 samples, Peak.   230 ms (2.9x), Avg.  78.3 ms, Total. 234.9 ms (0.4%)
-[Performance] GameView.Repaint                                            :        3 samples, Peak.   230 ms (2.9x), Avg.  78.3 ms, Total. 234.8 ms (0.4%)
-[Performance] RefreshSkin                                                 :        1 samples, Peak.  96.7 ms (1.0x), Avg.  96.7 ms, Total. 96.75 ms (0.2%)
-[Performance] GameView.OnGUI.Layout                                       :        3 samples, Peak.  15.4 ms (2.8x), Avg.  5.50 ms, Total. 16.49 ms (0.0%)
-[Performance] GameView.OnGUI.repaint                                      :        3 samples, Peak.  8.70 ms (2.5x), Avg.  3.47 ms, Total. 10.41 ms (0.0%)
-[Performance] SceneHierarchyWindow.Paint                                  :        3 samples, Peak.  33.2 ms (2.5x), Avg.  13.2 ms, Total. 39.62 ms (0.1%)
-[Performance] SceneHierarchyWindow.Repaint                                :        3 samples, Peak.  33.2 ms (2.5x), Avg.  13.1 ms, Total. 39.31 ms (0.1%)
-[Performance] SceneHierarchyWindow.OnGUI.Layout                           :        3 samples, Peak.  25.5 ms (2.8x), Avg.  9.26 ms, Total. 27.77 ms (0.0%)
-[Performance] SceneHierarchyWindow.OnGUI.repaint                          :        3 samples, Peak.  3.75 ms (1.7x), Avg.  2.15 ms, Total. 6.465 ms (0.0%)
-[Performance] SceneVisibilityState.IsFlagSetInParents                     :        6 samples, Peak.  3.00 us (1.8x), Avg.  1.65 us, Total. 9.900 us (0.0%)
-[Performance] SceneVisibilityState.HasData                                :        6 samples, Peak.   700 ns (2.8x), Avg.   250 ns, Total. 1.500 us (0.0%)
-[Performance] Toolbar.Paint                                               :        2 samples, Peak.   129 ms (2.0x), Avg.  66.2 ms, Total. 132.5 ms (0.2%)
-[Performance] Toolbar.Repaint                                             :        2 samples, Peak.   129 ms (2.0x), Avg.  66.2 ms, Total. 132.3 ms (0.2%)
-[Performance] AssetStoreWindow.Paint                                      :        2 samples, Peak.  73.8 ms (1.9x), Avg.  37.9 ms, Total. 75.82 ms (0.1%)
-[Performance] AssetStoreWindow.Repaint                                    :        2 samples, Peak.  72.8 ms (1.9x), Avg.  37.4 ms, Total. 74.74 ms (0.1%)
-[Performance] AssetStoreWindow.OnGUI.Layout                               :        2 samples, Peak.   900 ns (1.1x), Avg.   800 ns, Total. 1.600 us (0.0%)
-[Performance] AssetStoreWindow.OnGUI.repaint                              :        2 samples, Peak.   600 ns (1.1x), Avg.   550 ns, Total. 1.100 us (0.0%)
-[Performance] ConsoleWindow.Paint                                         :        2 samples, Peak.  14.8 ms (1.8x), Avg.  8.01 ms, Total. 16.02 ms (0.0%)
-[Performance] ConsoleWindow.Repaint                                       :        2 samples, Peak.  14.7 ms (1.9x), Avg.  7.96 ms, Total. 15.91 ms (0.0%)
-[Performance] ConsoleWindow.OnGUI.Layout                                  :        2 samples, Peak.  9.68 ms (2.0x), Avg.  4.91 ms, Total. 9.826 ms (0.0%)
-[Performance] ConsoleWindow.OnGUI.repaint                                 :        2 samples, Peak.   552 us (1.2x), Avg.   474 us, Total. 947.1 us (0.0%)
-[Performance] InspectorWindow.Paint                                       :        2 samples, Peak.  7.58 ms (1.9x), Avg.  4.08 ms, Total. 8.168 ms (0.0%)
-[Performance] InspectorWindow.Repaint                                     :        2 samples, Peak.  7.34 ms (1.9x), Avg.  3.94 ms, Total. 7.885 ms (0.0%)
-[Performance] InspectorWindow.OnGUI.Layout                                :        2 samples, Peak.  41.3 us (2.0x), Avg.  21.0 us, Total. 42.00 us (0.0%)
-[Performance] InspectorWindow.OnGUI.repaint                               :        2 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 1.200 us (0.0%)
-[Performance] AppStatusBar.Paint                                          :        2 samples, Peak.  8.46 ms (1.9x), Avg.  4.43 ms, Total. 8.864 ms (0.0%)
-[Performance] AppStatusBar.Repaint                                        :        2 samples, Peak.  8.42 ms (1.9x), Avg.  4.39 ms, Total. 8.776 ms (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  2.54 s (1.0x), Avg.  2.54 s, Total. 2.537 s (7.3%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  32.8 ms (1.0x), Avg.  32.8 ms, Total. 32.85 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   232 us (1.0x), Avg.   232 us, Total. 231.7 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  6.40 s (1.0x), Avg.  6.40 s, Total. 6.405 s (18.5%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  4.51 ms (1.0x), Avg.  4.51 ms, Total. 4.514 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  5.59 ms (1.0x), Avg.  5.59 ms, Total. 5.592 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  16.9 ms (1.0x), Avg.  16.9 ms, Total. 16.92 ms (0.0%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.06 s (1.0x), Avg.  1.06 s, Total. 1.060 s (3.1%)
+[Performance] CurlRequestCheck                                            :       20 samples, Peak.  1.92 ms (17.3x), Avg.   111 us, Total. 2.217 ms (0.0%)
+[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  13.8 us (1.0x), Avg.  13.8 us, Total. 13.80 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   166 ms (1.0x), Avg.   166 ms, Total. 165.9 ms (0.5%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  2.51 ms (1.0x), Avg.  2.51 ms, Total. 2.514 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.62 ms (1.0x), Avg.  1.62 ms, Total. 1.620 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.   674 ms (1.0x), Avg.   674 ms, Total. 674.0 ms (1.9%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  65.1 ms (2.0x), Avg.  32.5 ms, Total. 65.10 ms (0.2%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   342 us (1.1x), Avg.   299 us, Total. 597.4 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  29.5 ms (1.0x), Avg.  29.5 ms, Total. 29.51 ms (0.1%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  3.04 s (1.0x), Avg.  3.04 s, Total. 3.037 s (8.8%)
+[Performance] Compiling Scripts                                           :        1 samples, Peak.  50.6 ms (1.0x), Avg.  50.6 ms, Total. 50.63 ms (0.1%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  88.8 ms (1.0x), Avg.  88.8 ms, Total. 88.81 ms (0.3%)
+[Performance] AssetDatabase.Refresh                                       :        1 samples, Peak.  88.8 ms (1.0x), Avg.  88.8 ms, Total. 88.76 ms (0.3%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   106 ms (1.0x), Avg.   106 ms, Total. 106.1 ms (0.3%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.  90.4 ms (1.0x), Avg.  90.4 ms, Total. 90.42 ms (0.3%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  5.19 ms (1.0x), Avg.  5.19 ms, Total. 5.194 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   100 ns (1.0x), Avg.   100 ns, Total. 100.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  1.35 ms (1.0x), Avg.  1.35 ms, Total. 1.351 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.   163 ms (1.0x), Avg.   163 ms, Total. 163.4 ms (0.5%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  48.4 ms (1.0x), Avg.  48.4 ms, Total. 48.44 ms (0.1%)
+[Performance] Gizmo.RebuildRenderers                                      :        2 samples, Peak.  43.5 ms (2.0x), Avg.  22.1 ms, Total. 44.15 ms (0.1%)
+[Performance] Gizmo.AddGizmoRenderers                                     :      230 samples, Peak.  1.91 ms (86.0x), Avg.  22.2 us, Total. 5.107 ms (0.0%)
+[Performance] Application.InitializeMenu                                  :        1 samples, Peak.   155 ms (1.0x), Avg.   155 ms, Total. 155.1 ms (0.4%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.   149 ms (1.0x), Avg.   149 ms, Total. 149.2 ms (0.4%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.   138 ms (1.0x), Avg.   138 ms, Total. 138.0 ms (0.4%)
+[Performance] Application.RestoreLastOpenedScenes                         :        1 samples, Peak.  40.4 ms (1.0x), Avg.  40.4 ms, Total. 40.44 ms (0.1%)
+[Performance] Inspector.InitOrRebuild                                     :        3 samples, Peak.  5.59 ms (1.9x), Avg.  2.93 ms, Total. 8.799 ms (0.0%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  48.8 ms (1.0x), Avg.  48.8 ms, Total. 48.79 ms (0.1%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  7.47 ms (1.0x), Avg.  7.47 ms, Total. 7.472 ms (0.0%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  52.1 us (1.0x), Avg.  52.1 us, Total. 52.10 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                  :        2 samples, Peak.   600 ns (2.0x), Avg.   300 ns, Total. 600.0 ns (0.0%)
+[Performance] GenerateAssemblyTypeInfos                                   :        2 samples, Peak.   799 ms (1.0x), Avg.   775 ms, Total. 1.550 s (4.5%)
+[Performance] Package.AsyncRequest                                        :        1 samples, Peak.   748 us (1.0x), Avg.   748 us, Total. 747.8 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        3 samples, Peak.   373 ms (2.8x), Avg.   131 ms, Total. 393.8 ms (1.1%)
+[Performance] SceneHierarchyWindow.Paint                                  :        3 samples, Peak.   157 ms (2.9x), Avg.  54.7 ms, Total. 164.1 ms (0.5%)
+[Performance] SceneHierarchyWindow.Repaint                                :        3 samples, Peak.   157 ms (2.9x), Avg.  54.7 ms, Total. 164.0 ms (0.5%)
+[Performance] RefreshSkin                                                 :        1 samples, Peak.  30.0 ms (1.0x), Avg.  30.0 ms, Total. 29.98 ms (0.1%)
+[Performance] SceneHierarchyWindow.OnGUI.Layout                           :        3 samples, Peak.  24.2 ms (2.7x), Avg.  8.84 ms, Total. 26.51 ms (0.1%)
+[Performance] SceneHierarchyWindow.OnGUI.repaint                          :        3 samples, Peak.  4.43 ms (1.8x), Avg.  2.41 ms, Total. 7.238 ms (0.0%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                     :        6 samples, Peak.  2.00 us (1.4x), Avg.  1.47 us, Total. 8.800 us (0.0%)
+[Performance] SceneVisibilityState.HasData                                :        6 samples, Peak.   500 ns (2.3x), Avg.   217 ns, Total. 1.300 us (0.0%)
+[Performance] Toolbar.Paint                                               :        2 samples, Peak.  29.6 ms (1.8x), Avg.  16.4 ms, Total. 32.89 ms (0.1%)
+[Performance] Toolbar.Repaint                                             :        2 samples, Peak.  29.5 ms (1.8x), Avg.  16.3 ms, Total. 32.70 ms (0.1%)
+[Performance] AssetStoreWindow.Paint                                      :        2 samples, Peak.  67.3 ms (1.9x), Avg.  34.6 ms, Total. 69.21 ms (0.2%)
+[Performance] AssetStoreWindow.Repaint                                    :        2 samples, Peak.  66.6 ms (1.9x), Avg.  34.2 ms, Total. 68.41 ms (0.2%)
+[Performance] AssetStoreWindow.OnGUI.Layout                               :        2 samples, Peak.   900 ns (1.3x), Avg.   700 ns, Total. 1.400 us (0.0%)
+[Performance] AssetStoreWindow.OnGUI.repaint                              :        2 samples, Peak.   600 ns (1.2x), Avg.   500 ns, Total. 1.000 us (0.0%)
+[Performance] GameView.Paint                                              :        3 samples, Peak.  18.6 ms (2.5x), Avg.  7.48 ms, Total. 22.43 ms (0.1%)
+[Performance] GameView.Repaint                                            :        3 samples, Peak.  18.6 ms (2.5x), Avg.  7.41 ms, Total. 22.23 ms (0.1%)
+[Performance] GameView.OnGUI.Layout                                       :        3 samples, Peak.  9.54 ms (2.7x), Avg.  3.48 ms, Total. 10.45 ms (0.0%)
+[Performance] GameView.OnGUI.repaint                                      :        3 samples, Peak.  6.44 ms (2.4x), Avg.  2.72 ms, Total. 8.164 ms (0.0%)
+[Performance] ProjectBrowser.Paint                                        :        2 samples, Peak.  84.2 ms (1.9x), Avg.  43.7 ms, Total. 87.31 ms (0.3%)
+[Performance] ProjectBrowser.Repaint                                      :        2 samples, Peak.  84.2 ms (1.9x), Avg.  43.6 ms, Total. 87.19 ms (0.3%)
+[Performance] ProjectBrowser.OnGUI.Layout                                 :        2 samples, Peak.  73.8 ms (2.0x), Avg.  37.0 ms, Total. 74.01 ms (0.2%)
+[Performance] ProjectBrowser.OnGUI.repaint                                :        2 samples, Peak.  8.08 ms (1.6x), Avg.  5.10 ms, Total. 10.20 ms (0.0%)
+[Performance] InspectorWindow.Paint                                       :        2 samples, Peak.  7.03 ms (1.8x), Avg.  3.87 ms, Total. 7.740 ms (0.0%)
+[Performance] InspectorWindow.Repaint                                     :        2 samples, Peak.  6.95 ms (1.8x), Avg.  3.79 ms, Total. 7.582 ms (0.0%)
+[Performance] InspectorWindow.OnGUI.Layout                                :        2 samples, Peak.  40.6 us (2.0x), Avg.  20.8 us, Total. 41.60 us (0.0%)
+[Performance] InspectorWindow.OnGUI.repaint                               :        2 samples, Peak.   700 ns (1.0x), Avg.   700 ns, Total. 1.400 us (0.0%)
+[Performance] AppStatusBar.Paint                                          :        2 samples, Peak.  6.68 ms (1.7x), Avg.  3.96 ms, Total. 7.916 ms (0.0%)
+[Performance] AppStatusBar.Repaint                                        :        2 samples, Peak.  6.64 ms (1.9x), Avg.  3.50 ms, Total. 7.003 ms (0.0%)
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
