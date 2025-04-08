@@ -1,4 +1,4 @@
-Library: /Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/BurstOutput/Data/Plugins/x86_64/lib_burst_generated
+Library: /Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Temp/BurstOutput/Data/Plugins/x86_64/lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-16
 --target=X64_SSE2
@@ -9,10 +9,10 @@ Library: /Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/BurstOutput/D
 --target-framework=NetFramework
 --linker-options=PdbAltPath="MindMix_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/Burst
+--temp-folder=/Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/6000.0.23f1/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=/Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Library/Burst
---output=/Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/BurstOutput/Data/Plugins/x86_64/lib_burst_generated
+--decode-folder=/Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Library/Burst
+--output=/Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Temp/BurstOutput/Data/Plugins/x86_64/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -69,10 +69,10 @@ Library: /Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/BurstOutput/D
 --target-framework=NetFramework
 --linker-options=PdbAltPath="MindMix_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/Burst
+--temp-folder=/Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/6000.0.23f1/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=/Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Library/Burst
---output=/Users/willc/Desktop/Unanimous/Code-Repos/rd-mindmix/Temp/BurstOutput/Data/Plugins/x86_64/lib_burst_generated
+--decode-folder=/Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Library/Burst
+--output=/Users/willc/Desktop/Unanimous/Code-Repos/MindMix/Temp/BurstOutput/Data/Plugins/x86_64/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
