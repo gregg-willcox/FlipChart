@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <head>
   <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <style>.m_outer-table{width:100%;height:100%;border-spacing:0;padding:0px;border-collapse:collapse;vertical-align: center}.m_outer-table>tbody>tr>td{text-align:-webkit-center;vertical-align:middle;padding:0}.m_inner-table{border-spacing:0;border-collapse:collapse;border-radius:15px;overflow:hidden}.m_inner-table>tbody>tr>td{text-align:center;vertical-align:middle;padding:0}.m_inner-table>tbody>.m_r-top,.m_inner-table>tbody>.m_r-bottom{background-color:black;height:15px;border-radius:15px}.m_inner-table>tbody>tr>.m_left,.m_inner-table>tbody>tr>.m_right{background-color:black;width:15px}</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style>
+    /* Desktop styles */
+    .m_outer-table{width:100%;height:100%;border-spacing:0;padding:0px;border-collapse:collapse;vertical-align: center}.m_outer-table>tbody>tr>td{text-align:-webkit-center;vertical-align:middle;padding:0}.m_inner-table{border-spacing:0;border-collapse:collapse;border-radius:15px;overflow:hidden}.m_inner-table>tbody>tr>td{text-align:center;vertical-align:middle;padding:0}.m_inner-table>tbody>.m_r-top,.m_inner-table>tbody>.m_r-bottom{background-color:black;height:15px;border-radius:15px}.m_inner-table>tbody>tr>.m_left,.m_inner-table>tbody>tr>.m_right{background-color:black;width:15px}
+    
+    /* Mobile styles */
+    .mobile-view .m_outer-table,
+    .mobile-view .m_inner-table {
+      border-radius: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    
+    .mobile-view .m_inner-table > tbody > tr > td,
+    .mobile-view .m_outer-table > tbody > tr > td {
+      padding: 0 !important;
+    }
+    
+    .mobile-view .m_r-top,
+    .mobile-view .m_r-bottom,
+    .mobile-view .m_left,
+    .mobile-view .m_right {
+      display: none !important;
+    }
+    
+    .mobile-view #unity-canvas {
+      width: 100% !important;
+      height: 100% !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+    }
+    
+    #loading-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      display: block;
+    }
+    #unity-warning {
+      position: absolute;
+      left: 50%;
+      top: 5%;
+      transform: translate(-50%);
+      background: white;
+      padding: 10px;
+      display: none;
+    }
+  </style>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>MindMix</title>
   <script src="./polyfills.js"></script>
 </head>
 <body style="margin: 0.1%">
+  <script>
+    // Detect if device is mobile/tablet
+    function isMobileDevice() {
+      return (typeof window.orientation !== "undefined") 
+        || (navigator.maxTouchPoints > 0)
+        || (navigator.msMaxTouchPoints > 0)
+        || (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+    }
+    
+    // Add mobile class if needed
+    if (isMobileDevice()) {
+      document.body.classList.add('mobile-view');
+    }
+  </script>
   <div style="height: 100%; vertical-align: center">
       <table class="m_outer-table">
           <tbody>
@@ -25,9 +95,14 @@
                                   <td class="m_middle" style="background: rgb(0,0,0)" id="unity-container">
 <!--                                        <canvas id="unity-canvas" style="z-index: 20; background: #000000"></canvas>-->
                                         <canvas id="unity-canvas" style="z-index: 20; width: calc(92vh*1080/1920); height: 92vh; background: #000000"></canvas>
+                                        <div id="loading-text">Loading... 0%</div>
+                                        <div id="unity-warning"></div>
 
                                         <script src="Build/test-app.loader.js"></script>
                                         <script>
+                                          var loadingText = document.querySelector("#loading-text");
+                                          var warningBanner = document.querySelector("#unity-warning");
+
                                           createUnityInstance(document.querySelector("#unity-canvas"), {
                                             dataUrl: "Build/test-app.data",
                                             frameworkUrl: "Build/test-app.framework.js",
@@ -36,12 +111,17 @@
                                             companyName: "Unanimous AI",
                                             productName: "MindMix",
                                             productVersion: "2",
+                                          }, (progress) => {
+                                            loadingText.innerHTML = "Loading... " + Math.round(progress * 100) + "%";
                                           })
-                                          .then((instance) =>
-                                          {
+                                          .then((instance) => {
                                             unityInstance = instance;
+                                            loadingText.style.display = "none";
                                           })
-                                          .catch((message) => { console.warn(message); });
+                                          .catch((message) => {
+                                            warningBanner.style.display = "block";
+                                            warningBanner.innerHTML = message;
+                                          });
                                         </script>
                                   </td>
                                   <td class="m_right"></td>
